@@ -9,7 +9,7 @@ person can understand and reproduce my work.
 ## Analyze
 ### Task A: Portfolio Analysis
 
-#### Portfolio 1: Matthew Smith – Mechanical Engineering Portfolio
+#### Portfolio 1: Matthew Smith – Mechanical Engineering Portfolio (https://matthewericsmith.com/)
 
 For my first portfolio, I looked at Matthew Smith's Mechanical Engineering
 Portfolio. The website is organized so that his different projects can be
@@ -36,7 +36,7 @@ quickly identify the projects Smith completed and the engineering skills
 demonstrated by them. Its main limitation is that another engineer would
 need additional technical documentation to reproduce the projects.
 
-#### Portfolio 2: Jason Taylor – Mechanical Engineering Design Portfolio
+#### Portfolio 2: Jason Taylor – Mechanical Engineering Design Portfolio (https://github.com/jasondetaylor/Mechanical_Engineering_Design_Portfolio?utm_source=chatgpt.com)
 
 For my second portfolio, I looked at Jason Taylor's Mechanical Engineering
 Design Portfolio on GitHub. His portfolio contains several engineering
@@ -65,6 +65,17 @@ engineering decisions were made, but additional quantitative
 documentation would make the projects easier for another engineer to
 reproduce.
 
+### Comparison
+
+After comparing the two portfolios, I would want my own portfolio to
+combine parts of both approaches. I would use Smith's organization to
+make individual assignments easy for a visitor to find while also
+including the engineering reasoning shown in Taylor's project
+descriptions. I would include equations, assumptions, calculations,
+design choices, and results so another engineering student or engineer
+could understand what I did, why I did it, and how I reached my final
+result.
+
 Task B — Product Analysis
 
 An example of a common household product is a pair of scissors. The primary function of scissors is to convert the force applied by a person's hand into a cutting force between two blades. When the handles are squeezed together, the blades rotate around the central pivot and shear material placed between them. Scissors can be used to cut materials such as paper, cardboard, tape, and thin fabric.
@@ -85,16 +96,9 @@ Fᵢₙdᵢₙ = Fₒᵤₜdₒᵤₜ
 
 In this equation, Fᵢₙ is the force applied at the handles, dᵢₙ is the distance from the applied force to the pivot, Fₒᵤₜ is the cutting force, and dₒᵤₜ is the distance from the pivot to the cutting location. This relationship helps explain why cutting closer to the pivot produces more cutting force. For this model, I assume the scissors act as rigid bodies and that friction at the pivot is small enough to neglect.
 
-### Comparison
+A patent related to the mechanical design of scissors is US10695921B2, invented by Siu Wah Wong. The patent describes a shearing tool that uses a compound lever mechanism to increase cutting force while requiring less effort from the user. This design improves on conventional scissors, which operate as first-class levers with the pivot acting as the fulcrum.
 
-After comparing the two portfolios, I would want my own portfolio to
-combine parts of both approaches. I would use Smith's organization to
-make individual assignments easy for a visitor to find while also
-including the engineering reasoning shown in Taylor's project
-descriptions. I would include equations, assumptions, calculations,
-design choices, and results so another engineering student or engineer
-could understand what I did, why I did it, and how I reached my final
-result.
+Two alternative tools that perform a similar cutting function are a utility knife and rotary cutter. One important design decision in scissors is placing the pivot between the handles and blades. This allows the handles to provide leverage while keeping the two cutting edges aligned, making it easier for the user to produce the force needed to cut material. A patent related to the mechanical design of scissors can be found [HERE](https://patents.google.com/patent/US10695921B2/en).
 
 ## Decide
 
