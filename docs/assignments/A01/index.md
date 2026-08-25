@@ -10,7 +10,6 @@ person can understand and reproduce my work.
 ### Task A: Portfolio Analysis
 
 #### Portfolio 1: [[Matthew Smith – Mechanical Engineering Portfolio (https://matthewericsmith.com/)](https://matthewericsmith.com/?utm_source=chatgpt.com)
-](https://matthewericsmith.com/?utm_source=chatgpt.com)
 For my first portfolio, I looked at Matthew Smith's Mechanical Engineering
 Portfolio. The website is organized so that his different projects can be
 found directly from the main page. Each project is separated and labeled
