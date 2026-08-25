@@ -65,6 +65,26 @@ engineering decisions were made, but additional quantitative
 documentation would make the projects easier for another engineer to
 reproduce.
 
+Task B — Product Analysis
+
+An example of a common household product is a pair of scissors. The primary function of scissors is to convert the force applied by a person's hand into a cutting force between two blades. When the handles are squeezed together, the blades rotate around the central pivot and shear material placed between them. Scissors can be used to cut materials such as paper, cardboard, tape, and thin fabric.
+
+[Insert full scissors photo]
+
+Figure 1. Common pair of household scissors
+
+The scissors are made up of two blade-and-handle sections connected at a central pivot. Each half acts as a lever, with the user's hand applying force at the handle and the material resisting the force at the blade. The rounded handles provide a secure place for the fingers and thumb, while the sharpened edges face inward to create the shearing action needed to cut material.
+
+[Insert close-up photo of blades/pivot]
+
+Figure 2. Scissor blades and central pivot
+
+The mechanical behavior of the scissors can be often represented by the principle of moments:
+
+Fᵢₙdᵢₙ = Fₒᵤₜdₒᵤₜ
+
+In this equation, Fᵢₙ is the force applied at the handles, dᵢₙ is the distance from the applied force to the pivot, Fₒᵤₜ is the cutting force, and dₒᵤₜ is the distance from the pivot to the cutting location. This relationship helps explain why cutting closer to the pivot produces more cutting force. For this model, I assume the scissors act as rigid bodies and that friction at the pivot is small enough to neglect.
+
 ### Comparison
 
 After comparing the two portfolios, I would want my own portfolio to
@@ -75,7 +95,6 @@ descriptions. I would include equations, assumptions, calculations,
 design choices, and results so another engineering student or engineer
 could understand what I did, why I did it, and how I reached my final
 result.
-
 
 ## Decide
 
