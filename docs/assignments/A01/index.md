@@ -69,13 +69,13 @@ Task B — Product Analysis
 
 An example of a common household product is a pair of scissors. The primary function of scissors is to convert the force applied by a person's hand into a cutting force between two blades. When the handles are squeezed together, the blades rotate around the central pivot and shear material placed between them. Scissors can be used to cut materials such as paper, cardboard, tape, and thin fabric.
 
-<img width="30" height="30" alt="Scissors" src="https://github.com/user-attachments/assets/3da4305a-5091-438d-8568-6c15b9e712fb" />
+<img width="100" height="100" alt="Scissors" src="https://github.com/user-attachments/assets/3da4305a-5091-438d-8568-6c15b9e712fb" />
 
 Figure 1. Common pair of household scissors
 
 The scissors are made up of two blade-and-handle sections connected at a central pivot. Each half acts as a lever, with the user's hand applying force at the handle and the material resisting the force at the blade. The rounded handles provide a secure place for the fingers and thumb, while the sharpened edges face inward to create the shearing action needed to cut material.
 
-<img width="30" height="30" alt="scissors close up" src="https://github.com/user-attachments/assets/39d7ad1a-772e-4c50-a1f0-28ebc66a416e" />
+<img width="100" height="100" alt="scissors close up" src="https://github.com/user-attachments/assets/39d7ad1a-772e-4c50-a1f0-28ebc66a416e" />
 
 Figure 2. Scissor blades and central pivot
 
