@@ -79,6 +79,15 @@ result.
 
 ## Decide
 
+Homepage Identity
+For my homepage, I decided to keep the information simple so that someone visiting my portfolio can immediately understand what the website is for. I included my name and kept the sections for my assignments easy to find through the navigation menu. Since this portfolio could eventually be viewed by professors, other engineering students, or employers, I want someone to be able to find my work without having to search through a lot of information first. I also decided to keep most of the details about my projects and assignments on their individual pages instead of putting everything on the homepage. This allows the homepage to serve mainly as an introduction to the portfolio and a way for someone to navigate through my work.
+
+Intentional Customization
+One change I made to the original template was changing the main color from green to pink. Since everyone in the course starts with the same template, I wanted there to be a visual difference between my portfolio and the original version while still keeping the same organization and layout. I decided not to change the navigation or overall structure because those parts already make it easy to move between the homepage, About Me section, and individual assignments. Changing the color gives my portfolio some visual distinction without making it more difficult for someone to navigate or understand.
+
+Documentation Standard
+For every assignment in this portfolio, I will explain my calculations, assumptions, decisions, and results with enough detail for another engineering student to understand what I did and why I did it.
+
 
 ## Communicate
 
