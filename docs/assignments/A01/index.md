@@ -9,7 +9,7 @@ person can understand and reproduce my work.
 ## Analyze
 ### Task A: Portfolio Analysis
 
-#### Portfolio 1: Matthew Smith – Mechanical Engineering Portfolio (https://matthewericsmith.com/)
+#### Portfolio 1: [Matthew Smith – Mechanical Engineering Portfolio (https://matthewericsmith.com/)](https://matthewericsmith.com/?utm_source=chatgpt.com)
 
 For my first portfolio, I looked at Matthew Smith's Mechanical Engineering
 Portfolio. The website is organized so that his different projects can be
@@ -36,7 +36,7 @@ quickly identify the projects Smith completed and the engineering skills
 demonstrated by them. Its main limitation is that another engineer would
 need additional technical documentation to reproduce the projects.
 
-#### Portfolio 2: Jason Taylor – Mechanical Engineering Design Portfolio (https://github.com/jasondetaylor/Mechanical_Engineering_Design_Portfolio?utm_source=chatgpt.com)
+#### Portfolio 2: [Jason Taylor's Mechanical Engineering Design Portfolio](https://github.com/jasondetaylor/Mechanical_Engineering_Design_Portfolio?utm_source=chatgpt.com)
 
 For my second portfolio, I looked at Jason Taylor's Mechanical Engineering
 Design Portfolio on GitHub. His portfolio contains several engineering
