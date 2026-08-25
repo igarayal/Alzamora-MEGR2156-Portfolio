@@ -6,6 +6,17 @@ portfolio that documents my ability to analyze engineering problems, make
 and justify design decisions, and communicate my reasoning so that another
 person can understand and reproduce my work.
 
+## Decide
+
+Homepage Identity
+For my homepage, I decided to keep the information simple so that someone visiting my portfolio can immediately understand that this website is for my engineering portfolio. I included my name and kept the sections for my assignments easy to find through the navigation menu. Since this portfolio could eventually be viewed by professors, other engineering students, or employers, I want someone to be able to find my work without having to search through a lot of information first. I also decided to keep most of the details about my projects and assignments on their individual pages instead of putting everything on the homepage. This allows the homepage to serve mainly as an introduction to the portfolio and a way for someone to navigate through my work.
+
+Intentional Customization
+One change I made to the original template was changing the main color from green to pink. Since everyone in the course starts with the same template, I wanted there to be a visual difference between my portfolio and the original version while still keeping the same organization and layout. I decided not to change the navigation or overall structure because those parts already make it easy to move between the homepage, About Me section, and individual assignments. Changing the color gives my portfolio some visual distinction without making it more difficult for someone intuitively to navigate or understand.
+
+Documentation Standard
+For every assignment in this portfolio, I will clearly document my calculations, assumptions, design decisions, and results with enough detail for another engineering student to understand my reasoning and reproduce my work with minimal room for ambiguity.
+
 ## Analyze
 ### Task A: Portfolio Analysis
 
@@ -99,17 +110,6 @@ A patent related to the mechanical design of scissors is US10695921B2, invented 
 
 Two alternative tools that perform a similar cutting function are a utility knife and rotary cutter. One important design decision in scissors is placing the pivot between the handles and blades. This allows the handles to provide leverage while keeping the two cutting edges aligned, making it easier for the user to produce the force needed to cut material. A patent related to the mechanical design of scissors can be found [HERE](https://patents.google.com/patent/US10695921B2/en).
 
-## Decide
+Time Spent
 
-Homepage Identity
-For my homepage, I decided to keep the information simple so that someone visiting my portfolio can immediately understand what the website is for. I included my name and kept the sections for my assignments easy to find through the navigation menu. Since this portfolio could eventually be viewed by professors, other engineering students, or employers, I want someone to be able to find my work without having to search through a lot of information first. I also decided to keep most of the details about my projects and assignments on their individual pages instead of putting everything on the homepage. This allows the homepage to serve mainly as an introduction to the portfolio and a way for someone to navigate through my work.
-
-Intentional Customization
-One change I made to the original template was changing the main color from green to pink. Since everyone in the course starts with the same template, I wanted there to be a visual difference between my portfolio and the original version while still keeping the same organization and layout. I decided not to change the navigation or overall structure because those parts already make it easy to move between the homepage, About Me section, and individual assignments. Changing the color gives my portfolio some visual distinction without making it more difficult for someone to navigate or understand.
-
-Documentation Standard
-For every assignment in this portfolio, I will explain my calculations, assumptions, decisions, and results with enough detail for another engineering student to understand what I did and why I did it.
-
-
-## Communicate
-
+I spent approximately four hours completing this assignment.
