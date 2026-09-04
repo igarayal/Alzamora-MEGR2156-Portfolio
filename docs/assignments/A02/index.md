@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-For this assignment, I designed a lightweight planar truss while following the given geometric, loading, and material constraints. The purpose of this project was to better understand how applied loads create internal forces and stresses within a structure and how those forces affect the dimensions required for a safe design. I started by creating a simple truss geometry, then determined the external and internal forces, calculated the required cross-sectional areas of the members and pins, and used these calculations to develop the final CAD model.
+For this assignment, I designed a lightweight planar truss while following the given geometric, loading, and material constraints. The purpose of this project was to better understand how applied loads create internal forces and stresses within a structure and how those forces affect the dimensions required for a safe design. I started by creating a simple truss geometry, then determined the external and internal forces, calculated the required cross-sectional areas of the members and pins, and used these calculations to develop the final CAD model using Creo Parametric.
 
 ---
 
