@@ -28,7 +28,7 @@ The main design constraints I used were:
 - All truss members have the same cross-sectional area
 - All pins are identical
 
-<img width="530" height="570" alt="Screenshot 2026-09-04 023933" src="https://github.com/user-attachments/assets/dd8ea88d-71d6-407f-9773-2eb4e2a9701d" />
+<img width="530" height="570" alt="Screenshot 2026-09-04 023933"/>
 
 
 .png work)
