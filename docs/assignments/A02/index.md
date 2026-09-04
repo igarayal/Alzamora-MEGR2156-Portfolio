@@ -28,7 +28,7 @@ The main design constraints I used were:
 - All truss members have the same cross-sectional area
 - All pins are identical
 
-<img width="530" height="570" alt="Screenshot 2026-09-04 023933"/>
+<img width="530" height="570" alt="Screenshot 2026-09-04 023933">
 
 ## Initial Truss Design
 
