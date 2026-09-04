@@ -28,8 +28,10 @@ The main design constraints I used were:
 - All truss members have the same cross-sectional area
 - All pins are identical
 
-**[INSERT DESIGN CONSTRAINT IMAGE HERE]**
-(.png work)
+<img width="530" height="570" alt="Screenshot 2026-09-04 023933" src="https://github.com/user-attachments/assets/dd8ea88d-71d6-407f-9773-2eb4e2a9701d" />
+
+
+.png work)
 ## Initial Truss Design
 
 First, I decided what I wanted my overall truss geometry to look like. I chose a relatively simple and symmetric design because it provided a straightforward load path while making the method of joints easier to apply and verify. I divided the bottom of the truss into three sections that are each **0.4 m long** and used the required height of **0.3 m**.
