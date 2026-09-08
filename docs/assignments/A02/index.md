@@ -28,7 +28,7 @@ The main design constraints I used were:
 - All truss members have the same cross-sectional area
 - All pins are identical
 
-<img width="530" height="570" alt="Screenshot 2026-09-04 023933"/>
+<img width="500" height="500" alt="Screenshot 2026-09-04 023933" src="https://github.com/user-attachments/assets/50a32386-d8f4-4b28-9233-0ac19f848065" />
 
 ## Initial Truss Design
 
@@ -43,17 +43,7 @@ png here
 - C = (0.4, 0.3) m
 - D = (0.8, 0.3) m
 
-The diagonal members have a horizontal distance of 0.4 m and a vertical distance of 0.3 m. I used the Pythagorean theorem to calculate their length.
-png here
-
-I also determined the sine and cosine of the diagonal angle because these values would be needed to separate the member forces into horizontal and vertical components.
-
-png here
-
-These values were then used throughout the method-of-joints calculations.
-
-**[INSERT INITIAL TRUSS SKETCH HERE]**
-
+The diagonal members have a horizontal distance of 0.4 m and a vertical distance of 0.3 m. I used the Pythagorean theorem to calculate their length. I determined the sine and cosine of the diagonal angle because these values would be needed to separate the member forces into horizontal and vertical components. These values were then used throughout the method-of-joints calculations.
 ---
 
 ## Free Body Diagrams
@@ -62,89 +52,28 @@ Before solving for the internal forces, I created a free body diagram for each j
 
 I also included the external 25 kN loads at joints C and D and the support reactions at A and B. Creating each free body diagram separately helped me identify which equilibrium equations could be used at each joint. These diagrams were then used directly with the method of joints to calculate the internal forces.
 
-**[INSERT FREE BODY DIAGRAM IMAGE HERE]**
+<img width="500" height="500" alt="IMG_0407" src="https://github.com/user-attachments/assets/9ccd10df-699e-46ba-944a-dda2ab1ccefe" />
 
 ---
 
-## Finding the External Reaction Forces
+## Finding the External and Internal Forces
 
 Next, I determined the external reaction forces at the pin support A and roller support B due to the two applied loads. Since A is a pin support, it can provide both a horizontal reaction, **Ax**, and a vertical reaction, **Ay**. The roller at B provides the vertical reaction **By**.
-
-Because there are no external horizontal loads:
-
-png here
-
-Finding these reactions first was necessary because they become known external forces when applying the method of joints.
-
-png here
-
-## Finding the Internal Member Forces
-
-After finding the support reactions, I used the **method of joints** to determine the internal force carried by each truss member. I started at joints with no more than two unknown member forces and applied horizontal and vertical equilibrium. The forces were first solved symbolically in terms of P and then evaluated numerically using **P = 25 kN**.
-
-### Joint A
-png here
-
-Therefore, AE is in **tension**.
-
----
-
-### Joint C
-
-I then moved to joint C, where the 25 kN external load is applied. Since FAC was already known from joint A, the remaining unknown member forces could be found using horizontal and vertical equilibrium. This allowed me to determine the forces in members CD and CE.
-
-png here
-
-This means CE is a **zero-force member** under the selected loading condition.
-
-### Joint E
-
-Next, I analyzed joint E. Since CE was found to be a zero-force member, vertical equilibrium showed that ED was also a zero-force member for this loading condition. Horizontal equilibrium was then used to determine the force in EF.
-
-png here
-
-Therefore, EF is in **tension**.
-
----
-
-### Joint B
-
-I then analyzed joint B. The known vertical reaction at this joint was **By = 25 kN**, which allowed me to solve for the forces in members DB and FB.
-
-png here
-
-### Joint F
-
-Finally, I analyzed joint F. The horizontal forces from members EF and FB are equal in magnitude and opposite in direction. This leaves DF as the only possible vertical force at the joint.
-
-png here
-
+Because there are no external horizontal loads, finding these reactions first was necessary because they become known external forces when applying the method of joints. The largest internal force occurs in members **AC and DB**, which both experience **41.67 kN of compression**. Because every truss member is required to have the same cross-sectional geometry, I used this maximum internal force to size all of the members. This ensures that even the most heavily loaded member satisfies the required safety factor.
+AE is in **tension**
+CE is a **zero-force member** under the selected loading condition
+EF is in **tension**
 DF is a **zero-force member** under this loading condition.
+<img width="500" height="500" alt="IMG_0408" src="https://github.com/user-attachments/assets/e2cc979f-1046-4f0c-b06c-3d1242c9a34e" />
+<img width="500" height="500" alt="IMG_0404" src="https://github.com/user-attachments/assets/fd1badbb-e05c-47d7-9893-b7ae4b763bef" />
 
 ---
-
-## Internal Force Results
-
-After completing the method-of-joints calculations, I organized the results into a table so I could compare the magnitude and condition of each member.
-png here of table
-
-The largest internal force occurs in members **AC and DB**, which both experience **41.67 kN of compression**. Because every truss member is required to have the same cross-sectional geometry, I used this maximum internal force to size all of the members. This ensures that even the most heavily loaded member satisfies the required safety factor.
-
----
-
-# Cross-Sectional Area and Weight of Truss Members
 
 ## Member Cross-Sectional Area
 
-Next, I calculated the minimum cross-sectional area required for the truss members. The members are made from A500 steel, and I used a yield strength of **46 ksi**, which is approximately **317.16 MPa**. I used the largest internal force and the required safety factor of **3.5** so that the identical cross-section would be sufficient for every member in the truss.
+Next, I calculated the minimum cross-sectional area required for the truss members. The members are made from A500 steel, and I used a yield strength of **46 ksi**, which is approximately **317.16 MPa**. I used the largest internal force and the required safety factor of **3.5** so that the identical cross-section would be sufficient for every member in the truss. I will use the same selected cross-sectional geometry for every truss member as required by the assignment.
 
-### Knowns
-
-Maximum internal force:
-
-png here
-
-I will use the same selected cross-sectional geometry for every truss member as required by the assignment.
+<img width="500" height="500" alt="IMG_0406" src="https://github.com/user-attachments/assets/076926bb-476a-4266-9f59-8e750adb914f" />
 
 ---
 
