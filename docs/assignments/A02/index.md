@@ -150,7 +150,7 @@ I spent about 20 hours on this assignment due to technical issues.
 
 Below I have included a download link containing the completed CAD files for my truss design. The files include the final truss model, connecting pin model, and any additional files required to open or reproduce the completed design.
 
-[Download the SolidWorks Truss Assembly](A2 Truss.SLDPRT)
+[Download the SolidWorks Truss Assembly]([A2 Truss.SLDPRT](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A02/A2%20Truss.SLDPRT))
 
 I tested the link from the live portfolio page to make sure that the files can be downloaded and opened independently.
 
