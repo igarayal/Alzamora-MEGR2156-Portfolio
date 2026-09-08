@@ -13,6 +13,10 @@ After completing my calculations, I created the bar in SolidWorks. I set up para
 Once the parametric model was complete, I set up the FEA using the same material properties, geometry, and 300-lbf tensile load. I fixed one end of the bar and applied the tensile force to the opposite end. After creating the mesh and running the simulation, SolidWorks generated a displacement map and a von Mises stress map that I could use to evaluate the performance of my design.
 
 ## Decide
+<img width="500" height="500" alt="Screenshot 2026-09-08 075433" src="https://github.com/user-attachments/assets/d0d96bb0-c8e3-4600-8b24-8461debe243e" />
+<img width="500" height="500" alt="Screenshot 2026-09-08 074814" src="https://github.com/user-attachments/assets/9382717c-2856-4e0d-a0da-f2e1d6f947e4" />
+
+
 Based on my calculations and FEA results, I determined whether the bar satisfied the requirements of the assignment. My hand calculation was based on a maximum axial deflection of 0.009 inches, and I compared this value with the displacement obtained from SolidWorks. My FEA displacement was [INSERT FEA DISPLACEMENT] inches, resulting in a percent difference of [INSERT PERCENT DIFFERENCE]%.
 
 I expected the analytical and FEA results to be fairly close because the original bar has a constant cross section and is loaded directly in tension. There are no major changes in geometry that would create a stress concentration. Any small difference between the results could come from the mesh, boundary conditions, or differences in the material properties used by SolidWorks.
