@@ -14,6 +14,7 @@ Once the parametric model was complete, I set up the FEA using the same material
 
 ## Decide
 <img width="500" height="500" alt="Screenshot 2026-09-08 075433" src="https://github.com/user-attachments/assets/d0d96bb0-c8e3-4600-8b24-8461debe243e" />
+
 <img width="500" height="500" alt="Screenshot 2026-09-08 074814" src="https://github.com/user-attachments/assets/9382717c-2856-4e0d-a0da-f2e1d6f947e4" />
 
 
