@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-For this assignment, I designed a lightweight planar truss while following the given geometric, loading, and material constraints. The purpose of this project was to better understand how applied loads create internal forces and stresses within a structure and how those forces affect the dimensions required for a safe design. I started by creating a simple truss geometry, then determined the external and internal forces, calculated the required cross-sectional areas of the members and pins, and used these calculations to develop the final CAD model using Creo Parametric.
+For this assignment, I designed a lightweight planar truss while following the given geometric, loading, and material constraints. The purpose of this project was to better understand how applied loads create internal forces and stresses within a structure and how those forces affect the dimensions required for a safe design. I started by creating a simple truss geometry, then determined the external and internal forces, calculated the required cross-sectional areas of the members and pins, and used these calculations to develop the final CAD model using SolidWorks.
 
 ---
 
@@ -104,11 +104,11 @@ The pin free body diagram shows the applied shear force acting across one shear 
 
 ## Creating the Truss Model
 
-The next step was to transfer the dimensions determined from my calculations into CAD with Creo Parametric.  I maintained the selected cross-sectional area throughout each member and at the intersections around the pin joints so that the CAD geometry represented the assumptions used in my calculations.
+The next step was to transfer the dimensions determined from my calculations into CAD with SolidWorks.  I maintained the selected cross-sectional area throughout each member and at the intersections around the pin joints so that the CAD geometry represented the assumptions used in my calculations.
 
 I used the same 0.4 m horizontal spacing and 0.3 m vertical height established during the initial design. I also made sure that the cross-sectional geometry selected for the members had an area greater than or equal to the calculated minimum of **459.8 mm²**. This allowed the physical dimensions in the CAD model to satisfy the safety factor used in my analytical design. Next, I modeled the connecting pins as separate cylindrical components. The minimum calculated pin diameter was **10.42 mm**, so I selected a practical diameter that was equal to or larger than this value. I also selected a pin length that allowed the pin to pass completely through the connection without adding unnecessary material.
 
-**[INSERT FINAL CAD MODEL SCREENSHOT HERE]**
+<img width="500" height="500" alt="Screenshot 2026-09-08 062150" src="https://github.com/user-attachments/assets/fcba42e9-5607-4564-ad44-282bd386484a" />
 
 ---
 
@@ -116,7 +116,7 @@ I used the same 0.4 m horizontal spacing and 0.3 m vertical height established d
 
 After completing the model, I used the CAD mass properties tool to determine the predicted mass of the final design. I compared the CAD result with my analytical calculation to determine whether the physical model was consistent with the simplified volume and density calculations. A small difference is expected because the CAD model includes the actual joint geometry, pin holes, and other geometric details that are simplified in the hand calculations.
 
-**[INSERT CAD MASS PROPERTIES SCREENSHOT HERE]**
+<img width="500" height="500" alt="Screenshot 2026-09-08 062305" src="https://github.com/user-attachments/assets/69389508-ca61-4391-b44d-130793e52411" />
 
 ---
 
@@ -150,7 +150,7 @@ I spent about 20 hours on this assignment due to technical issues.
 
 Below I have included a download link containing the completed CAD files for my truss design. The files include the final truss model, connecting pin model, and any additional files required to open or reproduce the completed design.
 
-**[INSERT CAD FILE DOWNLOAD LINK HERE]**
+
 
 I tested the link from the live portfolio page to make sure that the files can be downloaded and opened independently.
 
