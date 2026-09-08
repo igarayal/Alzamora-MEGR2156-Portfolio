@@ -85,4 +85,4 @@ Overall, this assignment gave me a better understanding of how analytical calcul
 
 Actual time spent: Approximately 4 hours
 
-SolidWorks CAD File Download: [[INSERT LINK](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/raw/refs/heads/main/docs/assignments/A03/Cylindrical%20Bar.SLDPRT)]
+SolidWorks CAD File Download: [ LINK](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/raw/refs/heads/main/docs/assignments/A03/Cylindrical%20Bar.SLDPRT)]
