@@ -1,4 +1,4 @@
-# A3 – [Topic]
+# A3 –  Parametric and FEA
 
 ## Objective
 The objective of this assignment was to design an aluminum bar that could support a direct tensile load without exceeding the maximum allowable axial deflection of 0.009 inches. I used the axial deflection equation along with parametric modeling in SolidWorks to determine the dimensions of the bar. After creating the model, I used Finite Element Analysis (FEA) to check the displacement and stress produced by the same applied load. The purpose of the assignment was to better understand how force, material properties, and geometry all work together to affect the stiffness and strength of a part.
