@@ -79,33 +79,24 @@ Next, I calculated the minimum cross-sectional area required for the truss membe
 
 ## Approximate Truss Weight
 
-After determining the required cross-sectional area, I estimated the weight of the truss before creating the CAD model. I first added the lengths of all of the members to determine the total amount of A500 steel used in the analytical model. I then multiplied the total length by the minimum cross-sectional area to calculate volume and used the density of steel to calculate mass and weight.
+I began by identifying and listing all the known and unknown values given in the problem. Organizing the information this way made it easier to determine what needed to be solved for and what values were required for the calculations. This list also served as a convenient reference while calculating the minimum cross-sectional area and the overall weight of the truss. For all calculations that followed, I used the largest internal member force found within the truss.
+Next, I combined the maximum stress equation with the allowable stress and factor of safety requirements to develop an equation containing the necessary variables. After rearranging the equation algebraically, I obtained the following expression for the minimum required cross-sectional area:
+Aₘᵢₙ = (F.S. × Fₘₐₓ) / σᵧᵢₑₗ𝒹
+where F.S. represents the factor of safety, Fₘₐₓ is the maximum internal force in the truss, and σᵧᵢₑₗ𝒹 is the yield strength of A500 steel.
+I then substituted the known values into the equation and solved for the minimum required cross-sectional area, obtaining a value of 2.21 × 10⁻⁴ m². I then used this area to estimate the total weight of the truss, excluding the pins. To calculate the weight, I used the following equation:
 
-png here
+W = ρ × g × A × L
 
-This hand-calculated value gives me a prediction that I can later compare with the mass properties from my CAD model.
+where ρ is the density of A500 steel, g is the acceleration due to gravity, A is the cross-sectional area, and L is the combined length of all the truss members. After substituting the appropriate values into the equation, I calculated an estimated truss mass of approximately 5.76 kg.
+
+<img width="500" height="500" alt="IMG_0409" src="https://github.com/user-attachments/assets/d04880e6-30e3-4156-9eb6-023ec5813ccc" />
 
 ---
 
 # Connecting Pin Design
-
-## Critical Pin and Single-Shear Analysis
-
 Next, I determined the required size of the connecting pins. The assignment specifies hardened tool steel with a yield shear strength of **170 ksi**, a density of **0.278 lb/in³**, and a safety factor of **4**. I designed the connection as a **single-shear connection** as required and used the largest support reaction of **25 kN** as the expected shear force.
 
-The pin free body diagram shows the applied shear force acting across one shear plane. This is important because a single-shear connection has only one resisting shear area. I used this loading condition to calculate the minimum area and diameter required for each identical pin.
-
-**[INSERT CRITICAL PIN FREE BODY DIAGRAM HERE]**
-
-png here
-
-The actual pin diameter used in CAD must be greater than or equal to this value. I will round upward when selecting a practical pin diameter so that the final design does not fall below the calculated minimum.
-
----
-
-## Approximate Combined Weight of the Pins
-
-After determining the required pin area, I estimated the combined weight of the connecting pins. The pin weight depends on the final pin length, so I used the actual pin length selected during CAD modeling in the final calculation. The volume of each cylindrical pin is determined from its cross-sectional area and length, and the specified density can then be used to determine its weight.
+The pin free body diagram shows the applied shear force acting across one shear plane. This is important because a single-shear connection has only one resisting shear area. I used this loading condition to calculate the minimum area and diameter required for each identical pin. The actual pin diameter used in CAD must be greater than or equal to this value. I will round upward when selecting a practical pin diameter so that the final design does not fall below the calculated minimum. I calculated the minimum required cross-sectional area of the pins to be 0.13224 in². I then used the equation W = ρgAL to estimate the weight of the five pins. This resulted in approximately 0.02591 lbf per pin, or 0.13455 lb for all five pins. To estimate the pin length, I multiplied the side length of the truss member by 1.25.
 
 png here
 
