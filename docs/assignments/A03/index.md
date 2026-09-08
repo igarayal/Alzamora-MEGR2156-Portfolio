@@ -1,38 +1,48 @@
 # A3 –  Parametric and FEA
 
 ## Objective
-The objective of this assignment was to design an aluminum bar that could support a direct tensile load without exceeding the maximum allowable axial deflection of 0.009 inches. I used the axial deflection equation along with parametric modeling in SolidWorks to determine the dimensions of the bar. After creating the model, I used Finite Element Analysis (FEA) to check the displacement and stress produced by the same applied load. The purpose of the assignment was to better understand how force, material properties, and geometry all work together to affect the stiffness and strength of a part.
+The objective of this assignment was to design an aluminum bar that could support a direct tensile load without exceeding the maximum axial deflection of 0.009 inches. For my design, I selected an applied load of 300 lbf and used aluminum as the material. I used hand calculations and parametric modeling in SolidWorks to determine the dimensions of the bar. After creating the model, I performed Finite Element Analysis (FEA) using the same loading conditions to check the displacement and stress. The main purpose of this assignment was to understand how load, material properties, and geometry affect the stiffness and strength of a part.
 
 ## Analyze
-I started by looking at the relationship between the applied force, cross-sectional area, bar length, Young’s Modulus, and axial deflection. The direct tension equation
+I began by looking at the relationship between the applied load, cross-sectional area, length, Young’s Modulus, and axial deflection. I selected a tensile load of 300 lbf and used the direct tension equation to determine the required dimensions of my bar while staying within the maximum allowable deflection of 0.009 inches. My calculations also helped me determine the values that I needed to enter into SolidWorks for the parametric model.
 
+[INSERT HAND CALCULATION IMAGE #1]
 
+After completing my calculations, I created the bar in SolidWorks. I set up parameters for the important design values and connected them using equations so that the dimensions of the model were based on the calculations rather than being entered independently. This allowed the length of the bar to automatically update if one of the design parameters was changed.
 
-was used to determine the required length of the bar based on the selected dimensions and material properties. For my design, I used an applied tensile load of 400 lbf and a Young’s Modulus of (10 \times 10^6) psi.
-
-After completing the hand calculations, I created the bar in SolidWorks using parametric equations. I assigned variables to the important dimensions and properties so that the length of the bar would update automatically whenever one of the design values changed. This made it easier to connect the engineering calculations directly to the CAD model instead of entering every dimension manually.
-
-Once the model was complete, I performed a Finite Element Analysis using the same 400-lbf tensile load and the same aluminum material properties. One end of the bar was constrained while the tensile force was applied to the opposite end. The simulation produced both a displacement plot and a von Mises stress plot, which allowed me to compare the numerical FEA results with the results from the hand calculations.
+Once the parametric model was complete, I set up the FEA using the same material properties, geometry, and 300-lbf tensile load. I fixed one end of the bar and applied the tensile force to the opposite end. After creating the mesh and running the simulation, SolidWorks generated a displacement map and a von Mises stress map that I could use to evaluate the performance of my design.
 
 ## Decide
-After comparing the calculations and simulation results, I determined that the selected dimensions satisfied the requirements of the assignment. The analytical design was based on a maximum axial deflection of 0.009 inches, and I compared the FEA displacement result to this value to determine how closely the simulation matched the hand calculation.
+Based on my calculations and FEA results, I determined whether the bar satisfied the requirements of the assignment. My hand calculation was based on a maximum axial deflection of 0.009 inches, and I compared this value with the displacement obtained from SolidWorks. My FEA displacement was [INSERT FEA DISPLACEMENT] inches, resulting in a percent difference of [INSERT PERCENT DIFFERENCE]%.
 
-I also compared the maximum von Mises stress from the FEA with the specified aluminum yield strength of 40 ksi. From this comparison, I was able to calculate the factor of safety and determine whether the bar would remain below the yield strength under the applied load.
+I expected the analytical and FEA results to be fairly close because the original bar has a constant cross section and is loaded directly in tension. There are no major changes in geometry that would create a stress concentration. Any small difference between the results could come from the mesh, boundary conditions, or differences in the material properties used by SolidWorks.
 
-For a straight bar with a constant cross section and a simple tensile load, I expected the analytical and FEA deflection results to be very similar. The geometry does not contain major changes in shape or stress concentrations, so the assumptions used in the axial deflection equation closely match the conditions used in the simulation. Any small difference between the two results could come from the mesh, boundary conditions, or the exact material properties entered into SolidWorks.
+The displacement map showed how the bar moved under the 300-lbf load, with the largest displacement occurring toward the loaded end. The von Mises stress map showed how stress was distributed throughout the bar. The maximum stress from my FEA was [INSERT FEA STRESS], which was below the aluminum yield strength of 40 ksi. This gave the bar a factor of safety of [INSERT FACTOR OF SAFETY], showing that the design met the strength requirement.
 
-For this design, I would use the hand calculation as a quick prediction and the FEA result as a final verification of the model. The displacement plot shows how much the bar moves while under the applied tensile force, while the von Mises stress plot shows how the stress is distributed throughout the bar.
+For this design, the hand calculation was useful for predicting how the bar should behave before running the simulation. I would use the FEA as a final verification because it takes into account the actual CAD geometry, material, load, and boundary conditions used in the model.
 
-I also considered what would happen if a pin hole were added near the left side of the bar. Using a stress concentration factor for a hole in a flat bar under tension, I estimated the increase in local stress around the hole. Even with the increased peak stress caused by the hole, the estimated stress remained below the 40 ksi yield strength of the aluminum. The resulting factor of safety also remained greater than one, meaning the modified bar would still satisfy the strength requirement.
+I also considered what would happen if a substantial pin hole were added to the left side of the bar. The hole would create a stress concentration and increase the local stress in that area. I used a stress concentration factor based on the size of the hole compared with the width of the bar and used it to estimate the maximum stress. My calculations showed that the increased stress was still below the 40 ksi yield strength of aluminum. The factor of safety remained above one, so the bar would still pass the strength requirement even with the pin hole.
+Pin Hole Analysis
 
+I also looked at what would happen if a fairly substantial pin hole were added near the left side of the bar. A hole would create a stress concentration and cause the stress around that area to become higher than the nominal stress in the rest of the bar.
+
+I used a stress concentration factor for a hole in a flat bar under tension and used the nominal stress from my FEA to estimate the increased stress around the hole. My hand calculations for the pin-hole analysis are shown below.
+
+[INSERT IMAGE OF PIN-HOLE CALCULATIONS]
 
 ## Communicate
-Throughout the assignment, I documented my calculations, CAD model, SolidWorks equations, simulation setup, displacement results, and von Mises stress results. I included screenshots at different stages of the process to show how the design developed from the original calculations into the completed model and FEA.
+I documented my design process by including my calculations, SolidWorks model, parametric setup, and FEA results. The first calculation image shows how I determined the dimensions needed for my design, while the second calculation image shows my stress concentration and factor-of-safety analysis for the hypothetical pin hole. I also included screenshots from SolidWorks to show the development of the model and the results of the simulation.
 
-One of the main things I learned from this assignment was how useful parametric modeling can be during the design process. Instead of manually recalculating and changing dimensions every time one variable changes, equations can be used to automatically update the model. This makes it much easier to explore different design conditions and understand how each parameter affects the final geometry.
+One of the main things I learned from this assignment was how parametric modeling can make the design process more efficient. Instead of manually changing dimensions whenever a design value changes, SolidWorks can use equations to automatically update the geometry. This helped me understand how changing the load, dimensions, or material properties can affect the overall design.
 
-I also learned how FEA can be used alongside hand calculations. The analytical equations provide a quick way to predict how a simple part should behave, while FEA provides a visual way to examine displacement and stress throughout the model. Using both methods helped me better understand the connection between engineering calculations, CAD modeling, and simulation.
+I also learned how FEA can be used to verify results that were first predicted through hand calculations. The calculations gave me an idea of what I should expect, while the FEA allowed me to visualize the displacement and stress throughout the bar. Comparing the two methods helped me better understand the connection between engineering calculations, CAD modeling, and simulation.
 
-One challenge during the assignment was making sure the parameters, units, material properties, loads, and fixtures were consistent between the hand calculations and the FEA model. Small differences in these inputs could cause the simulation results to differ from the expected analytical values.
+One challenge I had during this assignment was making sure that the values used in SolidWorks matched the values from my hand calculations. The load, dimensions, material properties, and boundary conditions needed to be consistent so that the comparison between the two methods was accurate.
 
-In total, I spent approximately 3 hours completing the calculations, creating the parametric SolidWorks model, running the FEA, reviewing the results, and documenting the assignment.
+Overall, this assignment gave me a better understanding of how analytical calculations, parametric modeling, and FEA can be used together to design and evaluate a part.
+
+I spent approximately 4 hours completing this assignment.
+
+CAD File
+
+SolidWorks CAD File Download: [INSERT LINK]
