@@ -17,6 +17,10 @@ Once the parametric model was complete, I set up the FEA using the same material
 
 <img width="500" height="500" alt="Screenshot 2026-09-08 074814" src="https://github.com/user-attachments/assets/9382717c-2856-4e0d-a0da-f2e1d6f947e4" />
 
+<img width="500" height="500" alt="Screenshot 2026-09-08 080141" src="https://github.com/user-attachments/assets/23b39660-33de-4239-a04d-d997c786b234" />
+
+<img width="500" height="500" alt="Screenshot 2026-09-08 080501" src="https://github.com/user-attachments/assets/1db57080-c8a2-4567-bd46-af94b8d18331" />
+
 
 Based on my calculations and FEA results, I determined whether the bar satisfied the requirements of the assignment. My hand calculation was based on a maximum axial deflection of 0.009 inches, and I compared this value with the displacement obtained from SolidWorks. My FEA displacement was [INSERT FEA DISPLACEMENT] inches, resulting in a percent difference of [INSERT PERCENT DIFFERENCE]%.
 
