@@ -98,39 +98,15 @@ Next, I determined the required size of the connecting pins. The assignment spec
 
 The pin free body diagram shows the applied shear force acting across one shear plane. This is important because a single-shear connection has only one resisting shear area. I used this loading condition to calculate the minimum area and diameter required for each identical pin. The actual pin diameter used in CAD must be greater than or equal to this value. I will round upward when selecting a practical pin diameter so that the final design does not fall below the calculated minimum. I calculated the minimum required cross-sectional area of the pins to be 0.13224 in². I then used the equation W = ρgAL to estimate the weight of the five pins. This resulted in approximately 0.02591 lbf per pin, or 0.13455 lb for all five pins. To estimate the pin length, I multiplied the side length of the truss member by 1.25.
 
-png here
-
-This value was then included when comparing my analytical weight prediction with the final CAD model.
-
 ---
 
 # CAD Modeling
 
 ## Creating the Truss Model
 
-The next step was to transfer the dimensions determined from my calculations into CAD. I modeled the truss, excluding the pins, as one part as required by the assignment. I maintained the selected cross-sectional area throughout each member and at the intersections around the pin joints so that the CAD geometry represented the assumptions used in my calculations.
+The next step was to transfer the dimensions determined from my calculations into CAD with Creo Parametric.  I maintained the selected cross-sectional area throughout each member and at the intersections around the pin joints so that the CAD geometry represented the assumptions used in my calculations.
 
-I used the same 0.4 m horizontal spacing and 0.3 m vertical height established during the initial design. I also made sure that the cross-sectional geometry selected for the members had an area greater than or equal to the calculated minimum of **459.8 mm²**. This allowed the physical dimensions in the CAD model to satisfy the safety factor used in my analytical design.
-
-**[INSERT CAD TRUSS SCREENSHOT HERE]**
-
----
-
-## Creating the Pins
-
-Next, I modeled the connecting pins as separate cylindrical components. The minimum calculated pin diameter was **10.42 mm**, so I selected a practical diameter that was equal to or larger than this value. I also selected a pin length that allowed the pin to pass completely through the connection without adding unnecessary material.
-
-The final dimensions I selected were: png
-
-I used the same dimensions for every pin because the assignment requires the connecting pins to be identical.
-
-**[INSERT CAD PIN SCREENSHOT HERE]**
-
----
-
-## Final CAD Model
-
-After creating the truss and pins, I completed the final model using the calculated geometry and dimensions. I checked the pin locations, member intersections, and overall dimensions to make sure that the CAD model remained consistent with the free body diagrams and hand calculations. This step was important because changing the geometry during CAD modeling would also change the member forces calculated earlier.
+I used the same 0.4 m horizontal spacing and 0.3 m vertical height established during the initial design. I also made sure that the cross-sectional geometry selected for the members had an area greater than or equal to the calculated minimum of **459.8 mm²**. This allowed the physical dimensions in the CAD model to satisfy the safety factor used in my analytical design. Next, I modeled the connecting pins as separate cylindrical components. The minimum calculated pin diameter was **10.42 mm**, so I selected a practical diameter that was equal to or larger than this value. I also selected a pin length that allowed the pin to pass completely through the connection without adding unnecessary material.
 
 **[INSERT FINAL CAD MODEL SCREENSHOT HERE]**
 
@@ -142,11 +118,6 @@ After completing the model, I used the CAD mass properties tool to determine the
 
 **[INSERT CAD MASS PROPERTIES SCREENSHOT HERE]**
 
-My hand-calculated truss mass was:
-png
-
-The difference between these values can be explained by **[INSERT SPECIFIC REASON BASED ON YOUR CAD MODEL, SUCH AS PIN HOLES, JOINT GEOMETRY, OR THE ACTUAL SELECTED MEMBER AREA BEING LARGER THAN THE THEORETICAL MINIMUM]**.
-
 ---
 
 # Mistakes and Design Adjustments
@@ -156,8 +127,6 @@ One mistake I identified during the design process involved making sure that my 
 Another correction involved the maximum internal member force. I initially considered using the 25 kN applied load as the governing force for member sizing, but the method-of-joints calculations showed that members AC and DB actually experience **41.67 kN** of compression. This demonstrated why the external applied load cannot automatically be assumed to be the largest internal force in the structure.
 
 Correcting the governing force changed the minimum required cross-sectional area of the members. Using the actual maximum internal force resulted in a required minimum area of **459.8 mm²**, which I then carried forward into the CAD design. Keeping a record of this correction helped me understand why the complete structural analysis needs to be finished before final member dimensions are selected.
-
-**[INSERT ANY ADDITIONAL CAD OR DESIGN MISTAKES YOU ACTUALLY EXPERIENCED HERE]**
 
 ---
 
@@ -173,7 +142,7 @@ Another lesson I learned was the importance of maintaining consistency between a
 
 # Time Spent
 
-The part of the project that required the most time was **[INSERT TASK]** because **[BRIEFLY EXPLAIN WHY]**. Tracking my time also showed me where corrections or revisions added additional work to the design process.
+I spent about 20 hours on this assignment due to technical issues.
 
 ---
 
