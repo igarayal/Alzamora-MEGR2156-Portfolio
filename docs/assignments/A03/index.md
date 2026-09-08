@@ -6,7 +6,7 @@ The objective of this assignment was to design an aluminum bar that could suppor
 ## Analyze
 I began by looking at the relationship between the applied load, cross-sectional area, length, Young’s Modulus, and axial deflection. I selected a tensile load of 300 lbf and used the direct tension equation to determine the required dimensions of my bar while staying within the maximum allowable deflection of 0.009 inches. My calculations also helped me determine the values that I needed to enter into SolidWorks for the parametric model.
 
-[INSERT HAND CALCULATION IMAGE #1]
+<img width="500" height="500" alt="IMG_0410" src="https://github.com/user-attachments/assets/8d6fbfb9-a74f-4e69-b81e-e0fb97e17180" />
 
 After completing my calculations, I created the bar in SolidWorks. I set up parameters for the important design values and connected them using equations so that the dimensions of the model were based on the calculations rather than being entered independently. This allowed the length of the bar to automatically update if one of the design parameters was changed.
 
@@ -28,7 +28,7 @@ I also looked at what would happen if a fairly substantial pin hole were added n
 
 I used a stress concentration factor for a hole in a flat bar under tension and used the nominal stress from my FEA to estimate the increased stress around the hole. My hand calculations for the pin-hole analysis are shown below.
 
-[INSERT IMAGE OF PIN-HOLE CALCULATIONS]
+<img width="500" height="500" alt="IMG_0411" src="https://github.com/user-attachments/assets/dbc29372-2cf7-43b4-9503-1fce6a3647bd" />
 
 ## Communicate
 I documented my design process by including my calculations, SolidWorks model, parametric setup, and FEA results. The first calculation image shows how I determined the dimensions needed for my design, while the second calculation image shows my stress concentration and factor-of-safety analysis for the hypothetical pin hole. I also included screenshots from SolidWorks to show the development of the model and the results of the simulation.
