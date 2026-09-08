@@ -23,19 +23,22 @@ I then created a static FEA study using the same design conditions. One circular
 
 
 ## Decide
-[EMBED SOLIDWORKS MODEL SCREENSHOT HERE]
+
+<img width="500" height="500" alt="Screenshot 2026-09-08 080141" src="https://github.com/user-attachments/assets/8a0db094-86ec-42dc-96bc-00565395bb19" />
+<img width="500" height="500" alt="Screenshot 2026-09-08 075842" src="https://github.com/user-attachments/assets/0289ce70-b483-4f6a-82f1-2a73351f5955" />
+<img width="500" height="500" alt="Screenshot 2026-09-08 074814" src="https://github.com/user-attachments/assets/731664f7-de5f-4f03-aa3f-1d79b4f2cea3" />
+<img width="500" height="500" alt="Screenshot 2026-09-08 075433" src="https://github.com/user-attachments/assets/bc6528cd-7f2f-4911-8335-c3b204eb90dc" />
 
 The completed SolidWorks model represents the cylindrical aluminum bar created using the dimensions determined from my analytical design process.
-
-[EMBED FIXTURE/LOAD SCREENSHOT HERE]
-
 For the FEA, one end of the bar was completely fixed while a 301-lbf tensile force was applied to the opposite end. This represented the direct-tension loading condition used in my calculations.
 
 Displacement Results
 
-[EMBED DISPLACEMENT MAP HERE]
+<img width="500" height="500" alt="Screenshot 2026-09-08 082110" src="https://github.com/user-attachments/assets/2dbd17f9-a2bc-4ace-b9bf-58c3042abe0f" />
 
-My analytical design was based on a maximum axial deflection of 0.009 inches. The maximum displacement obtained from my SolidWorks FEA was [INSERT FEA DISPLACEMENT] inches, resulting in a percent difference of [INSERT PERCENT DIFFERENCE]% between the analytical and FEA results.
+<img width="500" height="500" alt="IMG_0412" src="https://github.com/user-attachments/assets/e03f6a51-0b7f-4661-a460-8871918a6850" />
+
+My hand calculation was based on a maximum axial deflection of 0.009 inches, while the maximum displacement obtained from SolidWorks FEA was 0.2286 mm, or approximately 0.00900 inches. This resulted in a percent difference of approximately 0.00%. The values were essentially identical, which was expected because the bar has a uniform cross section and is subjected to simple axial tension.
 
 I expected the analytical and FEA displacement results to be relatively close because the original bar has a constant circular cross section and is subjected to simple axial tension. There are no major changes in the original geometry that would create significant stress concentrations. Any small difference between the results could be caused by the mesh, boundary conditions, or slight differences between the material properties assumed in the hand calculations and those assigned in SolidWorks.
 
@@ -43,7 +46,7 @@ The displacement map showed how the bar deformed under the applied tensile load,
 
 Von Mises Stress Results
 
-[EMBED VON MISES STRESS MAP HERE]
+<img width="500" height="500" alt="Screenshot 2026-09-08 080621" src="https://github.com/user-attachments/assets/6d280702-5820-4725-8502-ad990c5722fc" />
 
 The von Mises stress map showed the stress distribution throughout the bar. The maximum stress obtained from my FEA was approximately 1.63 ksi, which was well below the specified aluminum yield strength of 40 ksi.
 
@@ -59,7 +62,7 @@ A pin hole creates a geometric discontinuity that causes the local stress surrou
 
 Calculation Page 2 documents my pin-hole analysis. For this calculation, I used the hole-to-width ratio to determine the appropriate stress concentration factor. I then used the nominal stress from my FEA to estimate the maximum local stress that could occur around the hypothetical hole. Finally, I compared the estimated maximum stress with the 40 ksi aluminum yield strength to determine whether the design would still satisfy the strength requirement.
 
-[EMBED CALCULATION PAGE 2 HERE]
+<img width="500" height="500" alt="IMG_0413" src="https://github.com/user-attachments/assets/9c4e0670-8bc7-4048-b3ff-3284e48ce4f2" />
 
 Using a stress concentration factor of approximately 2.17 and a nominal FEA stress of approximately 1.63 ksi, I estimated a maximum stress of approximately 3.54 ksi around the hypothetical pin hole. This resulted in a factor of safety of approximately 11.3.
 
