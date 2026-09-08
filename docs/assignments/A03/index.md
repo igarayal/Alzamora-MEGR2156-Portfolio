@@ -84,3 +84,5 @@ Another challenge was making sure that the load, dimensions, material properties
 Overall, this assignment gave me a better understanding of how analytical calculations, parametric CAD modeling, and FEA can be used together to design and evaluate an engineering component.
 
 Actual time spent: Approximately 4 hours
+
+SolidWorks CAD File Download: [INSERT LINK]
