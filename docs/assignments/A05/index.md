@@ -46,9 +46,61 @@ The rectangular beam equations were used to determine the required thickness bas
 <img width="500" height="500" alt="Screenshot 2026-09-16 144138" src="https://github.com/user-attachments/assets/c94d15e0-8e53-475f-bbe2-b6b7de0820dc" />
 <img width="500" height="500" alt="Screenshot 2026-09-16 144158" src="https://github.com/user-attachments/assets/6aab5315-86e3-4604-a34e-17514ec31e28" />
 
+The stress calculation produced a required thickness of:
+
+h_stress = 11.86 mm
+
+The deflection calculation produced:
+
+h_deflection = 17.50 mm
+
+Once again, deflection controlled the design.
+
+I selected:
+
+h₂ = 18 mm
+
+The resulting calculated values were:
+
+σ = 6.94 MPa
+
+δ = 0.276 mm
+
+The calculated stress remains below the allowable stress of 16 MPa, while the calculated deflection remains below the required maximum of 0.30 mm.
+
+
 
 ## Decide
 
+Material Selection: PLA was selected because it is suitable for 3D printing and provides the stiffness and strength required for the calculated loading conditions.
 
+Feature 1 Design: The calculations indicated that a minimum thickness of 15.29 mm was required to satisfy the deflection requirement. An 18 mm thickness was selected to provide additional stiffness.
+
+Feature 2 Design: The calculations indicated that a minimum thickness of 17.50 mm was required. An 18 mm thickness was selected to satisfy the requirement.
+
+Curved Transition: A curved transition was incorporated between Feature 1 and Feature 2 instead of using a sharp corner. The curve was accounted for in the CAD geometry while the hand calculations used an equivalent simplified beam model.
+
+Overall Geometry: The primary dimensions of the original design were maintained, including a 40 mm width, approximately 50 mm Feature 1 length, and approximately 50 mm Feature 2 height. The curved transition was incorporated within this overall geometry.
+
+Mounting Features: The design includes four Ø3.4 mm motor clearance holes positioned on a Ø22 mm bolt circle and a Ø7 mm shaft clearance hole.
+
+The resulting design satisfies the calculated stress and deflection requirements while incorporating the curved geometry into a manufacturable motor mount.
+
+The curved motor mount was modeled parametrically in SOLIDWORKS. The primary dimensions were created as editable parameters so that the design could be modified without rebuilding the entire model.
+
+The model includes Feature 1, Feature 2, the curved transition, motor mounting holes, and shaft clearance.
+
+The curved section was created using a controlled radius so that its geometry could also be adjusted parametrically. This allowed the overall shape of the mount to be changed while maintaining the required mounting dimensions.
 ## Communicate
 
+Through this project, I learned how theoretical beam calculations can be applied to a component that does not have completely straight geometry. The hand calculations provided the required dimensions for the major structural sections, while the CAD model allowed those dimensions to be incorporated into a more practical curved shape.
+
+I also learned that deflection can control a design even when the calculated stresses are well below the allowable material stress. In both structural sections, the deflection requirement resulted in a larger required thickness than the stress requirement.
+
+Another important lesson was understanding how simplified engineering models can be used during the early design process. The actual mount contains a curved transition, but simplifying the geometry into equivalent beam sections made it possible to estimate the required dimensions using standard beam equations.
+
+The curved transition also demonstrated the importance of translating analytical calculations into practical geometry. A real component may contain radii, mounting holes, and other features that are not represented directly in the initial hand calculations.
+
+Overall, this project improved my understanding of the relationship between structural analysis, design constraints, and parametric CAD modeling.
+
+This project took me roughly 6 hours to complete.
