@@ -71,7 +71,7 @@ The calculated stress remains below the allowable stress of 16 MPa, while the ca
 <img width="500" height="500" alt="Screenshot 2026-09-16 145458" src="https://github.com/user-attachments/assets/a9b3c888-acac-4330-aa62-4ccdc75d57c6" />
 <img width="500" height="500" alt="Screenshot 2026-09-16 145515" src="https://github.com/user-attachments/assets/c0c1dd67-fdde-4667-8850-1cfb587fd6f5" />
 
-The R10 mm curved transition was incorporated into the CAD geometry. For the hand calculations, Feature 1 and Feature 2 were approximated as equivalent beam sections using the 50 mm overall dimensions. Therefore, the radius was not directly included in the simplified beam equations.
+The R2mm curved transition was incorporated into the CAD geometry. For the hand calculations, Feature 1 and Feature 2 were approximated as equivalent beam sections using the 50 mm overall dimensions. Therefore, the radius was not directly included in the simplified beam equations.
 
 ## Decide
 
