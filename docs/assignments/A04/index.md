@@ -112,4 +112,6 @@ The curved transition also demonstrated the importance of translating analytical
 Overall, this project improved my understanding of the relationship between structural analysis, design constraints, and parametric CAD modeling.
 
 This project took me roughly 6 hours to complete.
+[Download SolidWorks Part File](./Motor_Mount_A4.SLDPRT)
 
+[Download SolidWorks Drawing File](./Motor_Mount_A4.SLDDRW)
