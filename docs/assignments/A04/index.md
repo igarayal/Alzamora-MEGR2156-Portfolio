@@ -94,6 +94,11 @@ The curved motor mount was modeled parametrically in SOLIDWORKS. The primary dim
 The model includes Feature 1, Feature 2, the curved transition, motor mounting holes, and shaft clearance.
 
 The curved section was created using a controlled radius so that its geometry could also be adjusted parametrically. This allowed the overall shape of the mount to be changed while maintaining the required mounting dimensions.
+
+<img width="500" height="500" alt="Screenshot 2026-09-16 234052" src="https://github.com/user-attachments/assets/182e669a-f0ea-42da-9dba-d92bfe91ba30" />
+<img width="500" height="500" alt="Screenshot 2026-09-17 001030" src="https://github.com/user-attachments/assets/a56a648a-ab1e-4964-8829-30c57ff56355" />
+<img width="500" height="500" alt="Screenshot 2026-09-16 234020" src="https://github.com/user-attachments/assets/fd887b38-e82a-4ea7-b1d2-4e8551054769" />
+
 ## Communicate
 
 Through this project, I learned how theoretical beam calculations can be applied to a component that does not have completely straight geometry. The hand calculations provided the required dimensions for the major structural sections, while the CAD model allowed those dimensions to be incorporated into a more practical curved shape.
@@ -107,3 +112,4 @@ The curved transition also demonstrated the importance of translating analytical
 Overall, this project improved my understanding of the relationship between structural analysis, design constraints, and parametric CAD modeling.
 
 This project took me roughly 6 hours to complete.
+
