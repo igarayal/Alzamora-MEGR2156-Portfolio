@@ -28,18 +28,13 @@ Feature C was the closest comparison between stress and stiffness. Stress requir
 ## Communicate
 I documented the stress and stiffness analysis for all five features and created two multiview sketches showing the dimensions determined by each method. The final CAD model was created using the governing stress-based dimensions.
 
-INSERT CAD IMAGE
+<img width="500" height="500" alt="Screenshot 2026-09-22 030618" src="https://github.com/user-attachments/assets/5e1bf331-2079-471b-adcf-8a1ba6b2b339" />
 
-https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A05/A5%20Bracket%20final.SLDPRT
+
+[Download SolidWorks File Here]([https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/raw/refs/heads/main/A5_Bracket_Design.SLDPRT](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A05/A5%20Bracket%20final.SLDPRT)) 
 
 Multiview Sketches
-Stress Analysis Sketch
 
-INSERT
-
-Stiffness Analysis Sketch
-
-INSERT
 
 Lessons Learned
 Governing Failure Mode
@@ -60,7 +55,5 @@ One important correction during the design process was making sure each feature 
 
 I also checked that the safety factor was applied only once through the allowable stress calculation and kept all calculations in consistent lbf, in., and psi units.
 
-Time Spent
-
-I spent approximately INSERT HOURS completing the calculations, sketches, CAD model, and documentation.
+I spent approximately 6 hours completing the calculations, sketches, CAD model, and documentation.
 
