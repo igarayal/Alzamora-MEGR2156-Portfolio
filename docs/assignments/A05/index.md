@@ -31,7 +31,7 @@ I documented the stress and stiffness analysis for all five features and created
 <img width="500" height="500" alt="Screenshot 2026-09-22 030618" src="https://github.com/user-attachments/assets/5e1bf331-2079-471b-adcf-8a1ba6b2b339" />
 
 
-[Download SolidWorks File Here]([https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/raw/refs/heads/main/A5_Bracket_Design.SLDPRT](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A05/A5%20Bracket%20final.SLDPRT)) 
+[Download SolidWorks File Here [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/raw/refs/heads/main/A5_Bracket_Design.SLDPRT](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A05/A5%20Bracket%20final.SLDPRT)
 
 Multiview Sketches
 
