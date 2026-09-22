@@ -35,6 +35,14 @@ I documented the stress and stiffness analysis for all five features and created
 
 Multiview Sketches
 
+<img width="500" height="500" alt="Sophomore Design-15" src="https://github.com/user-attachments/assets/6fc862cd-5433-4dca-b129-f26f07f8f892" />
+<img width="500" height="500" alt="Sophomore Design-17" src="https://github.com/user-attachments/assets/b448dc0b-0767-40f0-b6b5-4409132103ec" />
+<img width="500" height="500" alt="Sophomore Design-19" src="https://github.com/user-attachments/assets/1afd8dd4-e075-482a-acae-2aee7775133c" />
+<img width="500" height="500" alt="Sophomore Design-18" src="https://github.com/user-attachments/assets/f438881c-d14b-4db2-9c65-196ba33f0b7f" />
+<img width="500" height="500" alt="Sophomore Design-16" src="https://github.com/user-attachments/assets/72bb4b5b-ae12-470f-b247-1627ffaa013d" />
+<img width="500" height="500" alt="Sophomore Design-21" src="https://github.com/user-attachments/assets/5e0435ca-201b-425f-a071-791887b6ba16" />
+<img width="500" height="500" alt="Sophomore Design-20" src="https://github.com/user-attachments/assets/ed93e721-78ce-4c1e-bd79-1dcc5540dc57" />
+
 
 Lessons Learned
 Governing Failure Mode
