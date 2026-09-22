@@ -30,7 +30,7 @@ I documented the stress and stiffness analysis for all five features and created
 
 INSERT CAD IMAGE
 
-
+https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A05/A5%20Bracket%20final.SLDPRT
 
 Multiview Sketches
 Stress Analysis Sketch
