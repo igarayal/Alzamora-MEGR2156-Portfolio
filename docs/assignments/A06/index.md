@@ -7,7 +7,8 @@ For this assignment, I took the bracket I designed in the previous strength and 
 I began by reviewing the bracket geometry from the previous assignment and separating the dimensions that were controlled by strength or stiffness from the dimensions that were controlled by the mating T-beam geometry. I then organized the important values as SolidWorks parameters/global variables so that changes to the design inputs could update the corresponding model dimensions.
 The biggest advantage of setting the model up this way is that the bracket can be modified without repeating the entire sizing process by hand. If a controlling variable changes, the related features can regenerate from the equations already built into the model.
 
-[INSERT SCREENSHOT OF EQUATIONS / GLOBAL VARIABLES TABLE]
+<img width="500" height="500" alt="Screenshot 2026-09-29 043828" src="https://github.com/user-attachments/assets/c38b1ca7-2ab6-4a39-90dd-65326af0cb9c" />
+
 
 Parametric Model and Sketches
 
