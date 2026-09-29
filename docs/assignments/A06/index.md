@@ -2,7 +2,7 @@
 
 ## Objective
 
-For this assignment, I took the bracket from A5 and developed it into a parametric SolidWorks model and a fully dimensioned engineering drawing using third-angle projection. The main goal was to connect the important bracket dimensions to the strength and stiffness relationships from the previous assignment instead of entering only fixed values. I also applied tolerances to the three sliding-fit interfaces where the bracket fits over the rigid T-beam.
+For this assignment, I took the bracket from A5 and developed it into the appropriate parametric SolidWorks model and a fully dimensioned engineering drawing using third-angle projection. The main goal was to connect the important bracket dimensions to the strength and stiffness relationships from the previous assignment instead of entering only fixed values. I also applied tolerances to the three sliding-fit interfaces where the bracket fits over the rigid T-beam.
 
 ## Analyze
 
@@ -19,11 +19,12 @@ The main design values used were:
 
 I also carried over the final A5 dimensions for Features A through E.
 
-[INSERT EQUATIONS / GLOBAL VARIABLES SCREENSHOT]
+<img width="500" height="500" alt="Screenshot 2026-09-29 063025" src="https://github.com/user-attachments/assets/6c970b4e-79cf-4ee7-b6aa-3d0e1a20ceef" />
+
 
 ## Parametric Model And Sketches
 
-[INSERT FULL BRACKET MODEL SCREENSHOT]
+<img width="400" height="400" alt="Screenshot 2026-09-29 063138" src="https://github.com/user-attachments/assets/421e26f3-30ab-40ee-b77f-a97a1258e6b5" />
 
 ### C - Block
 
@@ -33,7 +34,7 @@ The main span length was set to 4.00 in, and the final height used from the A5 s
 
 The analytical stress calculation gave a required value of approximately 0.668 in, so I rounded the final CAD dimension upward to 0.6875 in.
 
-[INSERT C - BLOCK SCREENSHOT]
+<img width="500" height="500" alt="Screenshot 2026-09-29 063345" src="https://github.com/user-attachments/assets/55a6cd4e-c915-4cf3-b695-7ee888689529" />
 
 ### T-Slot
 
@@ -41,7 +42,7 @@ The T-slot provides the sliding interface between the bracket and the rigid T-be
 
 The pocket dimensions were controlled separately because these surfaces directly affect assembly. I treated the three T-beam contact dimensions as functional mating surfaces and applied tighter tolerances to them in the engineering drawing.
 
-[INSERT T-SLOT SCREENSHOT]
+<img width="500" height="500" alt="Screenshot 2026-09-29 063731" src="https://github.com/user-attachments/assets/631a1acf-43e0-45ef-b01b-8d593e461fc1" />
 
 ### B - Gusset
 
@@ -54,7 +55,7 @@ The final dimensions from A5 were:
 
 The gusset was included to transfer load between the upper block and the lower bracket features while limiting deformation.
 
-[INSERT B - GUSSET SCREENSHOT]
+<img width="400" height="400" alt="Screenshot 2026-09-29 063848" src="https://github.com/user-attachments/assets/a9e3ab02-936c-4da6-81a4-5b5479f5ad4b" />
 
 ### A - Pin
 
@@ -66,7 +67,7 @@ d_A = 0.9375 in
 
 The pin dimension was controlled by the bending-stress requirement and was rounded upward from the calculated value to a practical final dimension.
 
-[INSERT A - PIN SCREENSHOT]
+<img width="400" height="400" alt="Screenshot 2026-09-29 064055" src="https://github.com/user-attachments/assets/5bc143a6-970c-4d23-93d4-eb0df5a45d77" />
 
 ### D - Flange
 
@@ -78,7 +79,7 @@ h_D = 0.625 in
 
 This value was selected from the governing strength analysis completed in A5.
 
-[INSERT D - FLANGE SCREENSHOT]
+<img width="400" height="400" alt="Screenshot 2026-09-29 064307" src="https://github.com/user-attachments/assets/92f4e1bb-d460-4876-899f-969f8dac06e8" />
 
 ### E - Web
 
@@ -90,7 +91,7 @@ s_E = 0.3125 in
 
 This dimension was controlled by the governing strength requirement from A5.
 
-[INSERT E - WEB SCREENSHOT]
+<img width="400" height="400" alt="Screenshot 2026-09-29 064503" src="https://github.com/user-attachments/assets/53d7daaa-2ea3-4f5c-9f11-e20d5e906113" />
 
 ## Decide
 
@@ -134,19 +135,7 @@ The Top view was placed above the Front view, and the Right-side view was placed
 
 I used projected views so that the views remained aligned with one another instead of manually positioning independent views.
 
-[INSERT COMPLETE ENGINEERING DRAWING SCREENSHOT]
-
-### Top View
-
-The Top view shows the 4.00 in overall span and the layout of the upper T-beam interface.
-
-### Front View
-
-The Front view shows the main load path through the block, web, flange, and pin.
-
-### Right View
-
-The Right view shows the depth of the bracket and the three T-beam interface dimensions used for the sliding fit.
+<img width="400" height="400" alt="Screenshot 2026-09-29 070028" src="https://github.com/user-attachments/assets/6e563909-197c-4fb2-99ca-0f20bd30d0b9" />
 
 ## Lessons Learned
 
