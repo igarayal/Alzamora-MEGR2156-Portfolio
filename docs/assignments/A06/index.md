@@ -184,4 +184,5 @@ It took me approximately 6 hours to complete the parametric model, drawing, tole
 
 ## CAD File
 
-[Bracket.zip](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A06/A6%20Bracket.zip)
+[A6 Bracket.zip](https://github.com/user-attachments/files/32800178/A6.Bracket.zip)
+
