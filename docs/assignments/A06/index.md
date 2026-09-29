@@ -1,83 +1,198 @@
-# A6 – Bracket
+# A6 – Bracket Drawing
 
 ## Objective
-For this assignment, I took the bracket I designed in the previous strength and stiffness assignment and developed it into a parametric SolidWorks model and a fully dimensioned, third-angle engineering drawing. The goal was to make the important dimensions respond to the engineering relationships that control the design instead of entering unrelated fixed values. I also focused on properly dimensioning and tolerancing the three sliding-fit interfaces where the bracket receives the rigid T-beam.
+
+For this assignment, I took the bracket from A5 and developed it into a parametric SolidWorks model and a fully dimensioned engineering drawing using third-angle projection. The main goal was to connect the important bracket dimensions to the strength and stiffness relationships from the previous assignment instead of entering only fixed values. I also applied tolerances to the three sliding-fit interfaces where the bracket fits over the rigid T-beam.
 
 ## Analyze
-I began by reviewing the bracket geometry from the previous assignment and separating the dimensions that were controlled by strength or stiffness from the dimensions that were controlled by the mating T-beam geometry. I then organized the important values as SolidWorks parameters/global variables so that changes to the design inputs could update the corresponding model dimensions.
-The biggest advantage of setting the model up this way is that the bracket can be modified without repeating the entire sizing process by hand. If a controlling variable changes, the related features can regenerate from the equations already built into the model.
 
-<img width="500" height="500" alt="Screenshot 2026-09-29 043828" src="https://github.com/user-attachments/assets/c38b1ca7-2ab6-4a39-90dd-65326af0cb9c" />
+I organized the bracket around a set of SolidWorks global variables so that the main dimensions could be controlled from the same design inputs used in A5.
 
+The main design values used were:
 
-Parametric Model and Sketches
+- Load: 650 lbf
+- Safety Factor: 4
+- Yield Strength: 35,000 psi
+- Modulus of Elasticity: 10,000,000 psi
+- Maximum Deflection: 0.005 in
+- Allowable Stress: 8,750 psi
 
-[INSERT SCREENSHOT OF COMPLETE PARAMETRIC MODEL]
+I also carried over the final A5 dimensions for Features A through E.
 
-Main Bracket Body
-I first created the main body of the bracket because it establishes the overall size and provides the reference geometry for the other features. The surrounding dimensions were then tied to this geometry so that the model would remain consistent when parameters changed.
+[INSERT EQUATIONS / GLOBAL VARIABLES SCREENSHOT]
 
-[INSERT MAIN BODY / BASE SKETCH SCREENSHOT]
+## Parametric Model And Sketches
 
-T-Beam Interface
-The T-beam interface was one of the most important sections of the model because it contains the three sliding-fit surfaces specified in the assignment. These dimensions could not be determined from strength alone because they also had to physically fit around the updated rigid T-beam geometry.
-I sized the openings from the mating geometry and included the required clearance instead of treating the gap dimensions as arbitrary values.
+[INSERT FULL BRACKET MODEL SCREENSHOT]
 
-[INSERT T-BEAM / SLOT SKETCH SCREENSHOT]
+### C - Block
 
-Upper Retaining Feature
-The upper retaining portion of the bracket helps capture the rigid T-shaped member and keeps the bracket located during use. Because it is connected to the sliding interface, its dimensions were tied to the surrounding T-beam geometry instead of being modeled independently.
+Feature C forms the main upper body of the bracket and contains the geometry that interfaces with the rigid T-beam.
 
-[INSERT UPPER FEATURE SCREENSHOT]
+The main span length was set to 4.00 in, and the final height used from the A5 stress analysis was 0.6875 in.
 
-Center Web
-The web transfers load between the upper interface and the lower portion of the bracket. I kept this feature connected parametrically to the main body so that changes in the surrounding bracket dimensions would not require the web to be rebuilt manually.
+The analytical stress calculation gave a required value of approximately 0.668 in, so I rounded the final CAD dimension upward to 0.6875 in.
 
-[INSERT WEB SKETCH SCREENSHOT]
+[INSERT C - BLOCK SCREENSHOT]
 
-Lower Load-Carrying Feature
-The lower portion of the bracket provides the load-transfer area for the strap and connects the applied load to the rest of the bracket. This feature was modeled using the dimensions developed from the previous design analysis and the physical space required for the strap.
+### T-Slot
 
-[INSERT LOWER FEATURE / STRAP INTERFACE SCREENSHOT]
+The T-slot provides the sliding interface between the bracket and the rigid T-beam.
 
-Equation-Driven Dimension
-One of the main requirements of this assignment was to drive at least one dimension directly from the analytical design relationship rather than calculating a number separately and typing that result into SolidWorks.
-I used the strength/stiffness relationship from the previous assignment to control one of the structural dimensions of the bracket. I entered the design variables as SolidWorks global variables and connected the resulting dimension through an equation in the model.
+The pocket dimensions were controlled separately because these surfaces directly affect assembly. I treated the three T-beam contact dimensions as functional mating surfaces and applied tighter tolerances to them in the engineering drawing.
 
-[INSERT SCREENSHOT OF THE SOLIDWORKS EQUATION]
+[INSERT T-SLOT SCREENSHOT]
 
-Because this dimension was equation-driven, a change to the controlling input changed the model dimension through the SolidWorks relation rather than requiring me to manually recalculate and replace the dimension.
+### B - Gusset
+
+Feature B is the connecting gusset between the main body and the lower section of the bracket.
+
+The final dimensions from A5 were:
+
+- Gusset thickness, t_B = 0.09375 in
+- Gusset width, w_B = 0.9375 in
+
+The gusset was included to transfer load between the upper block and the lower bracket features while limiting deformation.
+
+[INSERT B - GUSSET SCREENSHOT]
+
+### A - Pin
+
+Feature A is the lower pin that supports the strap load.
+
+The final pin diameter from the A5 strength analysis was:
+
+d_A = 0.9375 in
+
+The pin dimension was controlled by the bending-stress requirement and was rounded upward from the calculated value to a practical final dimension.
+
+[INSERT A - PIN SCREENSHOT]
+
+### D - Flange
+
+Feature D forms the flange located between the web and the lower pin area.
+
+The final flange height used in the CAD model was:
+
+h_D = 0.625 in
+
+This value was selected from the governing strength analysis completed in A5.
+
+[INSERT D - FLANGE SCREENSHOT]
+
+### E - Web
+
+Feature E is the center web that transfers the load from the lower features into the upper bracket body.
+
+The final web thickness was:
+
+s_E = 0.3125 in
+
+This dimension was controlled by the governing strength requirement from A5.
+
+[INSERT E - WEB SCREENSHOT]
 
 ## Decide
-With the equations in place, I checked each calculated dimension against the physical fit requirements of the bracket. A dimension that satisfies a strength or stiffness equation can still be too small for the mating geometry, so the final values had to satisfy both structural performance and assembly.
-I also selected tolerances based on function rather than using the tightest tolerance everywhere.
-Tolerance Class Per Dimension
-The three T-beam gap dimensions received tighter tolerances because they are functional mating surfaces. Their dimensions directly affect whether the bracket can slide over the rigid T-beam without binding or excessive looseness.
-For a critical mating dimension shown to three decimal places, I used the X.XXX ± .005 in tolerance class. For a non-critical dimension that does not control assembly, I used the looser X.X ± .02 in tolerance class.
-Holding every feature to ±.005 in would unnecessarily increase manufacturing difficulty and inspection requirements without improving the performance of non-critical features.
-The general tolerance block on the drawing is:
-- X.X ± .02 in
-- X.XX ± .01 in
-- X.XXX ± .005 in
+
+After entering the A5 dimensions and equations into SolidWorks, I checked the model to make sure the calculated dimensions also satisfied the physical fit requirements of the bracket.
+
+One important issue was that a dimension can satisfy the stress equation but still be too small for the mating T-beam. Because of this, the final dimensions had to satisfy both the structural requirement and the geometry needed for assembly.
+
+I also selected tolerances based on the function of each feature instead of applying the tightest tolerance everywhere.
+
+## Tolerance Class Per Dimension
+
+The three T-beam pocket dimensions received explicit tolerances because they are functional mating surfaces.
+
+These dimensions directly control the sliding fit between the bracket and the rigid T-beam. Too little clearance could prevent assembly, while too much clearance could allow excessive movement.
+
+The drawing uses the required general tolerance block:
+
+- X.X ± .02
+- X.XX ± .01
+- X.XXX ± .005
+
+For a critical sliding-fit dimension, I used the tighter X.XXX ± .005 tolerance class.
+
+For non-critical dimensions such as overall lengths or features that do not directly mate with another part, I allowed the general tolerance block to control the tolerance.
+
+Using the tightest tolerance on every dimension would unnecessarily increase machining difficulty and inspection requirements without improving the function of the bracket.
 
 ## Communicate
-I created the final engineering drawing from the same parametric model and used third-angle projection. The Top view is above the Front view and the Right-side view is positioned to the right of the Front view. The drawing includes the dimensions needed to manufacture the bracket, the three sliding-fit tolerances, and the required general tolerance block.
 
-Drawing
-[INSERT IMAGE 7 — COMPLETE ENGINEERING DRAWING]
+I created the final engineering drawing directly from the SolidWorks model.
 
-Lessons Learned
-Mistakes and Corrections
-One thing I learned was that a structurally acceptable dimension does not automatically guarantee that the mating geometry will fit. I had to compare the calculated dimensions with the minimum dimensions required by the rigid T-beam before finalizing the model.
+The drawing includes the necessary dimensions, the three sliding-fit tolerances, the general tolerance block, and a third-angle multiview layout.
 
-I also learned the difference between simply entering dimensions and creating a truly parametric model. Connecting the important dimensions to global variables and equations allows the model to respond to design changes instead of requiring manual edits.
-The drawing portion reinforced why tolerances should be selected based on function. The sliding-fit interfaces require tighter control because variation affects assembly, while non-critical dimensions can rely on the general tolerance block.
+The main purpose of the drawing was to clearly communicate which dimensions are critical to the bracket's function and which dimensions can use the general manufacturing tolerances.
 
-I used the analytical relationship from my previous strength/stiffness analysis to control a structural bracket dimension directly inside SolidWorks. The controlling values were entered as global variables and linked to the model through an equation rather than typing in a hand-calculated result.
+## Drawing
 
-When a controlling input changes, the linked dimension updates through the equation and the features that reference it regenerate with the model. This reduces manual rework and keeps the CAD model connected to the engineering analysis.
+The drawing was arranged using third-angle projection.
+
+The Top view was placed above the Front view, and the Right-side view was placed to the right of the Front view.
+
+I used projected views so that the views remained aligned with one another instead of manually positioning independent views.
+
+[INSERT COMPLETE ENGINEERING DRAWING SCREENSHOT]
+
+### Top View
+
+The Top view shows the 4.00 in overall span and the layout of the upper T-beam interface.
+
+### Front View
+
+The Front view shows the main load path through the block, web, flange, and pin.
+
+### Right View
+
+The Right view shows the depth of the bracket and the three T-beam interface dimensions used for the sliding fit.
+
+## Lessons Learned
+
+### Mistakes and Corrections
+
+One of the main lessons from this assignment was that the calculated strength requirement is not the only factor that controls the geometry.
+
+For Feature C, the stress calculation produced a required height of approximately 0.668 in, while the final CAD dimension was rounded upward to 0.6875 in. I also had to make sure that the T-beam interface still physically fit inside the surrounding bracket geometry.
+
+Another important lesson was the difference between a normal dimension and a parametric dimension. By entering the design values as global variables and equations, I could keep the analytical relationships connected to the CAD model instead of relying only on manually entered dimensions.
+
+I also learned that tolerances should be assigned based on function. The three sliding-fit surfaces require tighter control because they directly affect assembly, while non-critical dimensions can use the general tolerance block.
+
+### Equation-Driven Dimension
+
+I used the Feature C bending-stress equation as the analytical relationship for the parametric portion of the model.
+
+The bending moment was defined as:
+
+M_C = (F × L_C) / 4
+
+Using:
+
+- F = 650 lbf
+- L_C = 4.00 in
+
+gave:
+
+M_C = 650 lbf·in
+
+The Feature C height was calculated from:
+
+h_C = sqrt(6M_C / (b_C × sigma_allow))
+
+Using an allowable stress of 8,750 psi gave a required height of approximately 0.668 in.
+
+The final CAD dimension was rounded upward to:
+
+h_C = 0.6875 in
+
+I entered the design variables and calculation into the SolidWorks Equation Manager so that the relationship was documented directly in the CAD model.
+
+## Time It Took
 
 It took me approximately 6 hours to complete the parametric model, drawing, tolerancing, revisions, and documentation.
 
-Download Final Bracket CAD File
-MEGR2156_FINAL_Synced_Bracket.step.SLDPRT
+## CAD File
+
+[Bracket.zip](INSERT-YOUR-GITHUB-BRACKET-ZIP-LINK-HERE)
