@@ -184,4 +184,4 @@ It took me approximately 6 hours to complete the parametric model, drawing, tole
 
 ## CAD File
 
-[Bracket.zip](INSERT-YOUR-GITHUB-BRACKET-ZIP-LINK-HERE)
+[Bracket.zip](PK)
