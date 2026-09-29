@@ -6,29 +6,45 @@ For this assignment, I took the bracket I designed in the previous strength and 
 ## Analyze
 I began by reviewing the bracket geometry from the previous assignment and separating the dimensions that were controlled by strength or stiffness from the dimensions that were controlled by the mating T-beam geometry. I then organized the important values as SolidWorks parameters/global variables so that changes to the design inputs could update the corresponding model dimensions.
 The biggest advantage of setting the model up this way is that the bracket can be modified without repeating the entire sizing process by hand. If a controlling variable changes, the related features can regenerate from the equations already built into the model.
+
 [INSERT SCREENSHOT OF EQUATIONS / GLOBAL VARIABLES TABLE]
+
 Parametric Model and Sketches
+
 [INSERT SCREENSHOT OF COMPLETE PARAMETRIC MODEL]
+
 Main Bracket Body
 I first created the main body of the bracket because it establishes the overall size and provides the reference geometry for the other features. The surrounding dimensions were then tied to this geometry so that the model would remain consistent when parameters changed.
+
 [INSERT MAIN BODY / BASE SKETCH SCREENSHOT]
+
 T-Beam Interface
 The T-beam interface was one of the most important sections of the model because it contains the three sliding-fit surfaces specified in the assignment. These dimensions could not be determined from strength alone because they also had to physically fit around the updated rigid T-beam geometry.
 I sized the openings from the mating geometry and included the required clearance instead of treating the gap dimensions as arbitrary values.
+
 [INSERT T-BEAM / SLOT SKETCH SCREENSHOT]
+
 Upper Retaining Feature
 The upper retaining portion of the bracket helps capture the rigid T-shaped member and keeps the bracket located during use. Because it is connected to the sliding interface, its dimensions were tied to the surrounding T-beam geometry instead of being modeled independently.
+
 [INSERT UPPER FEATURE SCREENSHOT]
+
 Center Web
 The web transfers load between the upper interface and the lower portion of the bracket. I kept this feature connected parametrically to the main body so that changes in the surrounding bracket dimensions would not require the web to be rebuilt manually.
+
 [INSERT WEB SKETCH SCREENSHOT]
+
 Lower Load-Carrying Feature
 The lower portion of the bracket provides the load-transfer area for the strap and connects the applied load to the rest of the bracket. This feature was modeled using the dimensions developed from the previous design analysis and the physical space required for the strap.
+
 [INSERT LOWER FEATURE / STRAP INTERFACE SCREENSHOT]
+
 Equation-Driven Dimension
 One of the main requirements of this assignment was to drive at least one dimension directly from the analytical design relationship rather than calculating a number separately and typing that result into SolidWorks.
 I used the strength/stiffness relationship from the previous assignment to control one of the structural dimensions of the bracket. I entered the design variables as SolidWorks global variables and connected the resulting dimension through an equation in the model.
+
 [INSERT SCREENSHOT OF THE SOLIDWORKS EQUATION]
+
 Because this dimension was equation-driven, a change to the controlling input changed the model dimension through the SolidWorks relation rather than requiring me to manually recalculate and replace the dimension.
 
 ## Decide
