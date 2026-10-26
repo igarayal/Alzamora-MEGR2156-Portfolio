@@ -138,5 +138,5 @@ FEA Results Comparison
 One of the biggest things I learned from this assignment was how changing the thickness of the connecting gusset affects the factor of safety. As I increased the gusset thickness throughout my three designs, the factor of safety increased from approximately 2.3 in my original design to 3.8 in my final design. Although I did not reach the target factor of safety of 4, my final design came close without adding more material than necessary.
 
 I also learned how important mesh refinement is when performing FEA. Even though my displacement results were within the required 7% difference, the maximum stress and factor of safety were still around 16%. This showed me that I would need additional mesh refinement to determine whether my results had fully converged.
-Overall, I spent approximately 2–3 hours working on the FEA simulations, making changes to my bracket design, and documenting my results for my GitHub portfolio.
+Overall, I spent approximately 8 hours working on the FEA simulations, making changes to my bracket design, and documenting my results for my GitHub portfolio.
 
