@@ -71,15 +71,19 @@ Factor of Safety Plot
 Design II – Finer Mesh
 
 Mesh
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 072637" src="https://github.com/user-attachments/assets/6846d2ed-5772-48fa-b93e-79521cd861c8" />
 
 Stress Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 072714" src="https://github.com/user-attachments/assets/14b4eb55-30aa-4802-897d-5dd46095ad41" />
 
 Displacement Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 072725" src="https://github.com/user-attachments/assets/e23253c7-fbce-4b65-9201-a55bc933eef9" />
 
 Factor of Safety Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 072733" src="https://github.com/user-attachments/assets/52f414bb-c918-466f-ae5d-4b94668d23af" />
 
 Design III – Coarse Mesh
@@ -111,11 +115,23 @@ Stress Plot
 <img width="400" height="400" alt="Screenshot 2026-10-26 074702" src="https://github.com/user-attachments/assets/168dab6e-ad3e-4541-9686-122754d97630" />
 
 Displacement Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 074717" src="https://github.com/user-attachments/assets/952b3f4c-5152-421e-97ef-72f92f53bd9b" />
 
 Factor of Safety Plot
 
 <img width="400" height="400" alt="Screenshot 2026-10-26 074728" src="https://github.com/user-attachments/assets/5af4f4cc-9a39-4973-be80-aadedd9b60ae" />
+
+
+FEA Results Comparison
+
+| Parameter | Design I | Design II | Design III |
+|---|---|---|---|
+| **Max Stress and Location** | 1.743 MPa, gusset-to-pin connection | 2.049 MPa, upper gusset-to-bracket connection |  2.654 MPa, upper bracket/pocket connection |
+| **Max Deflection and Location** | 0.001987 mm, outer end of pin | 0.002404 mm, outer end of pin | 0.002663 mm, outer end of pin |
+| **Mass** | 1.27 lb | 1.28 lb | 1.30 lb |
+| **Safety Factor** | 2.3 | 3.0 | 4.0 |
+| **Number of Elements** | 13,950 | 14,320 | 14,842 |
 
 ## Communicate
 One of the biggest things I learned from this assignment was how changing the thickness of the connecting gusset affects the factor of safety. As I increased the gusset thickness throughout my three designs, the factor of safety increased from approximately 2.3 in my original design to 3.8 in my final design. Although I did not reach the target factor of safety of 4, my final design came close without adding more material than necessary.
