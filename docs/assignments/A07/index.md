@@ -104,11 +104,18 @@ Design III – Finer Mesh
 
 Mesh
 
+<img width="400" height="400" alt="Screenshot 2026-10-26 074643" src="https://github.com/user-attachments/assets/bb8527d2-c873-448d-b048-f1046bb397b8" />
+
 Stress Plot
 
+<img width="400" height="400" alt="Screenshot 2026-10-26 074702" src="https://github.com/user-attachments/assets/168dab6e-ad3e-4541-9686-122754d97630" />
+
 Displacement Plot
+<img width="400" height="400" alt="Screenshot 2026-10-26 074717" src="https://github.com/user-attachments/assets/952b3f4c-5152-421e-97ef-72f92f53bd9b" />
 
 Factor of Safety Plot
+
+<img width="400" height="400" alt="Screenshot 2026-10-26 074728" src="https://github.com/user-attachments/assets/5af4f4cc-9a39-4973-be80-aadedd9b60ae" />
 
 ## Communicate
 One of the biggest things I learned from this assignment was how changing the thickness of the connecting gusset affects the factor of safety. As I increased the gusset thickness throughout my three designs, the factor of safety increased from approximately 2.3 in my original design to 3.8 in my final design. Although I did not reach the target factor of safety of 4, my final design came close without adding more material than necessary.
