@@ -18,15 +18,19 @@ For Design III, I increased the connecting gusset thickness again to see whether
 Design I – Coarse Mesh
 
 Mesh
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 010326" src="https://github.com/user-attachments/assets/02aa8423-3b44-4d94-89f1-f43e90d4bf07" />
 
 Stress Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 010926" src="https://github.com/user-attachments/assets/3110d949-e289-48fa-bb9b-18b31481cd16" />
 
 Displacement Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 010941" src="https://github.com/user-attachments/assets/894bed49-b6b9-45fe-859f-71ea65fcc5e2" />
 
 Factor of Safety Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 011159" src="https://github.com/user-attachments/assets/6c0aad11-3977-4a05-815e-ff408f528192" />
 
 Design I – Finer Mesh
@@ -35,12 +39,15 @@ Mesh
 <img width="400" height="400" alt="Screenshot 2026-10-26 012955" src="https://github.com/user-attachments/assets/10c9cf2b-fc7c-41da-95cd-fe9745695f8a" />
 
 Stress Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 013839" src="https://github.com/user-attachments/assets/c1719bf1-4cb4-4029-927c-867613908fe7" />
 
 Displacement Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 013952" src="https://github.com/user-attachments/assets/170caedc-81a9-4252-a82b-3cd74f515c2c" />
 
 Factor of Safety Plot
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 014037" src="https://github.com/user-attachments/assets/23ffaa12-6c11-47fd-ad7f-212c992b6452" />
 
 Design II – Coarse Mesh
