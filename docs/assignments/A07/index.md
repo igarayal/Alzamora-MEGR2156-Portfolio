@@ -53,12 +53,16 @@ Factor of Safety Plot
 Design II – Coarse Mesh
 
 Mesh
+<img width="400" height="400" alt="Screenshot 2026-10-26 071806" src="https://github.com/user-attachments/assets/ddd3158b-7464-458a-a173-91c84e585cc4" />
 
 Stress Plot
+<img width="400" height="400" alt="Screenshot 2026-10-26 071946" src="https://github.com/user-attachments/assets/369a889a-77c0-4a00-875a-9bf85ff6f9d7" />
 
 Displacement Plot
+<img width="400" height="400" alt="Screenshot 2026-10-26 071956" src="https://github.com/user-attachments/assets/b81266b7-482d-4909-ae71-f483856f56e8" />
 
 Factor of Safety Plot
+<img width="400" height="400" alt="Screenshot 2026-10-26 072152" src="https://github.com/user-attachments/assets/e4fd30f1-fdaa-4c5c-8efa-eac541a1a90f" />
 
 Design II – Finer Mesh
 
