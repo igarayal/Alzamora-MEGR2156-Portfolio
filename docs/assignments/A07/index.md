@@ -140,3 +140,4 @@ One of the biggest things I learned from this assignment was how changing the th
 I also learned how important mesh refinement is when performing FEA. Even though my displacement results were within the required 7% difference, the maximum stress and factor of safety were still around 16%. This showed me that I would need additional mesh refinement to determine whether my results had fully converged.
 Overall, I spent approximately 8 hours working on the FEA simulations, making changes to my bracket design, and documenting my results for my GitHub portfolio.
 
+CAD link: https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A07/Bracket%20A7.SLDPRT
