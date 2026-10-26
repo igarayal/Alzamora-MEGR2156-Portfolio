@@ -36,6 +36,7 @@ Factor of Safety Plot
 Design I – Finer Mesh
 
 Mesh
+
 <img width="400" height="400" alt="Screenshot 2026-10-26 012955" src="https://github.com/user-attachments/assets/10c9cf2b-fc7c-41da-95cd-fe9745695f8a" />
 
 Stress Plot
