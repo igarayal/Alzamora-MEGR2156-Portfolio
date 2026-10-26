@@ -86,11 +86,19 @@ Design III – Coarse Mesh
 
 Mesh
 
+<img width="400" height="400" alt="Screenshot 2026-10-26 074248" src="https://github.com/user-attachments/assets/0842ce42-472b-4a78-9634-ca08f3d7601d" />
+
 Stress Plot
+
+<img width="400" height="400" alt="Screenshot 2026-10-26 074300" src="https://github.com/user-attachments/assets/469ef4e0-6131-4bc7-ba5b-65bd417139ef" />
 
 Displacement Plot
 
+<img width="400" height="400" alt="Screenshot 2026-10-26 074308" src="https://github.com/user-attachments/assets/6cc2cb28-dc7c-40e1-9efe-b9a893f0f476" />
+
 Factor of Safety Plot
+
+<img width="400" height="400" alt="Screenshot 2026-10-26 074324" src="https://github.com/user-attachments/assets/9e564afd-c903-4d5f-bf60-ae78f2e7bf6e" />
 
 Design III – Finer Mesh
 
