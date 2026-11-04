@@ -149,6 +149,13 @@ Another consideration is that the initial shaft analysis primarily evaluates tor
 
 Finally, the journal bearing fits must be checked using actual manufacturer tolerances to ensure that the shafts rotate freely while the bearings remain securely positioned in the housing.
 
+<img width="400" height="400" alt="Screenshot 2026-11-04 092206" src="https://github.com/user-attachments/assets/ac09e693-4cd1-45fe-87e3-eb67aff9a2a0" />
+<img width="400" height="400" alt="Screenshot 2026-11-04 084952" src="https://github.com/user-attachments/assets/4ae5c141-597b-46cb-8511-88c09344b57d" />
+<img width="400" height="400" alt="Screenshot 2026-11-04 083934" src="https://github.com/user-attachments/assets/c95698c5-b722-4f97-a882-fdb8fea4d91d" />
+<img width="400" height="400" alt="Screenshot 2026-11-04 083738" src="https://github.com/user-attachments/assets/bf1c6874-811e-442f-9260-2398fde611f6" />
+<img width="400" height="400" alt="Screenshot 2026-11-04 083359" src="https://github.com/user-attachments/assets/b715cdab-79fa-4e5e-9814-f9c548019b4e" />
+
+
 ## Communicate
 Mistakes Made
 
