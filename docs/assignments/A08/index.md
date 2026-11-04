@@ -186,10 +186,5 @@ Overall, this project helped connect engineering calculations with practical mec
 I spent approximately 6-7 hours working on this assignment. Most of the time was dedicated to the shaft and bearing calculations, determining the housing dimensions, and developing the gearbox model for SolidWorks.
 The gearbox CAD package contains the assembled model, exploded configuration, individual component files, and documentation.
 
-Download Complete Gearbox CAD Package
-
 Download Assembled Gearbox
-
-Download Exploded Assembly
-
-View Gearbox Preview
+Download Drawing
