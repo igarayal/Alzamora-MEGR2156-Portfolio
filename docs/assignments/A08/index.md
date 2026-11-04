@@ -186,5 +186,5 @@ Overall, this project helped connect engineering calculations with practical mec
 I spent approximately 6-7 hours working on this assignment. Most of the time was dedicated to the shaft and bearing calculations, determining the housing dimensions, and developing the gearbox model for SolidWorks.
 The gearbox CAD package contains the assembled model, exploded configuration, individual component files, and documentation.
 
-Download Assembled Gearbox:
+Download Assembled Gearbox: https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A08/A8_Complete_Gearbox.step.SLDASM
 Download Drawing:  https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A08/A8_Complete_Gearbox.step.SLDDRW
