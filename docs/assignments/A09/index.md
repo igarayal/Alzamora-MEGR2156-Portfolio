@@ -216,8 +216,6 @@ The assembly maintains a 5-inch center distance between the two pulley axes.
 
 The CAD model represents the preliminary component geometry. Further development would be necessary to finalize bearing fits, shaft retention, belt installation tension, and mounting details.
 
-### Design Challenges and Modifications
-
 One challenge I encountered was determining the appropriate belt circumference. Initially, I focused on matching the calculated geometric belt length, but realized that installation strain was necessary to develop sufficient initial tension.
 
 I also had to distinguish between the theoretical minimum shaft diameter and a practical standard diameter. Although the minimum calculated diameter was approximately 0.165 inches, I selected a 0.250-inch shaft to increase the torsional safety margin.
