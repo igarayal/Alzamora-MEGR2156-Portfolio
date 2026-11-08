@@ -3,16 +3,11 @@
 ## Objective
 The objective of this assignment was to design a belt-driven pulley system capable of transferring rotational power between two parallel shafts while maintaining a minimum factor of safety of 3.
 
-For my design, I selected two 3-inch diameter aluminum pulleys with a center-to-center distance of 5 inches, an operating speed of 1500 rpm, and an initial static belt tension of 5 lbf.
-
-I applied principles of belt friction, normal stress, torsional shear stress, bearing pressure, and structural mechanics to determine the required component dimensions. I also developed a 3D CAD model to visualize the pulley system and its supporting components.
+For my design, I selected two 3-inch diameter aluminum pulleys with a center-to-center distance of 5 inches, an operating speed of 1500 rpm, and an initial static belt tension of 5 lbf. I applied principles of belt friction, normal stress, torsional shear stress, bearing pressure, and structural mechanics to determine the required component dimensions. I also developed a 3D CAD model to visualize the pulley system and its supporting components.
 
 ## Analyze
-### Part 1: Belt Selection and Analysis
 
-I started by identifying the knowns and unknowns and creating a free-body diagram (FBD) of the pulley system. I used the belt friction equation to calculate the tight-side and loose-side tensions, assuming a coefficient of friction of 0.30 and a wrap angle of 180 degrees.
-
-I then applied the normal stress equation and the polyurethane rubber yield strength of 471 psi to determine the minimum belt cross-sectional area and diameter.
+I started by identifying the knowns and unknowns and creating a free-body diagram (FBD) of the pulley system. I used the belt friction equation to calculate the tight-side and loose-side tensions, assuming a coefficient of friction of 0.30 and a wrap angle of 180 degrees. I then applied the normal stress equation and the polyurethane rubber yield strength of 471 psi to determine the minimum belt cross-sectional area and diameter.
 
 #### Belt Analysis Results
 
@@ -31,9 +26,7 @@ I then applied the normal stress equation and the polyurethane rubber yield stre
 
 Based on these calculations, I selected a 1/4-inch diameter polyurethane round belt from McMaster-Carr.
 
-The calculated nominal belt pitch-path length was approximately 19.425 inches. I initially considered selecting a belt based only on its geometric circumference, but realized that installation strain was also necessary to generate sufficient static pretension.
-
-To account for this, I evaluated a shorter 19-inch circumference belt. The selected diameter satisfies the preliminary tensile-strength requirement, although the actual installation tension and slip resistance would require further verification.
+The calculated nominal belt pitch-path length was approximately 19.425 inches. I initially considered selecting a belt based only on its geometric circumference, but realized that installation strain was also necessary to generate sufficient static pretension. To account for this, I evaluated a shorter 19-inch circumference belt. The selected diameter satisfies the preliminary tensile-strength requirement, although the actual installation tension and slip resistance would require further verification.
 
 #### Handwritten Calculations
 
@@ -47,9 +40,7 @@ To account for this, I evaluated a shorter 19-inch circumference belt. The selec
 
 ### Part 2: Shaft Design
 
-For the shaft design, I selected 1060 hardened steel and calculated the minimum diameter required to transmit torque without exceeding the allowable torsional shear stress.
-
-I began by developing a shaft FBD showing the applied torque, belt forces, and bearing reactions. I then used the torsion equation for a solid circular shaft and the maximum-shear-stress criterion to determine the required shaft diameter.
+For the shaft design, I selected 1060 hardened steel and calculated the minimum diameter required to transmit torque without exceeding the allowable torsional shear stress. I began by developing a shaft FBD showing the applied torque, belt forces, and bearing reactions. I then used the torsion equation for a solid circular shaft and the maximum-shear-stress criterion to determine the required shaft diameter.
 
 #### Shaft Analysis Results
 
@@ -64,9 +55,7 @@ I began by developing a shaft FBD showing the applied torque, belt forces, and b
 | Torsional shear stress | 2,147 psi |
 | Torsional factor of safety | 10.41 |
 
-I selected a standard 1/4-inch diameter shaft because it exceeds the calculated minimum diameter and provides additional torsional strength.
-
-The selected shaft meets the minimum factor of safety under pure torsion. However, a complete shaft analysis would also need to consider bending stresses, bearing reactions, and combined loading.
+I selected a standard 1/4-inch diameter shaft because it exceeds the calculated minimum diameter and provides additional torsional strength. The selected shaft meets the minimum factor of safety under pure torsion. However, a complete shaft analysis would also need to consider bending stresses, bearing reactions, and combined loading.
 
 #### Handwritten Calculations
 
@@ -80,9 +69,7 @@ The selected shaft meets the minimum factor of safety under pure torsion. Howeve
 
 ### Part 3: Journal Bearing Design
 
-Next, I evaluated journal bearings to support the rotating shafts while maintaining proper alignment and minimizing friction.
-
-Using an assumed radial bearing load of 5 lbf, a shaft diameter of 0.250 inches, and a bearing length of 0.500 inches, I calculated the projected bearing area, bearing pressure, surface velocity, and pressure-velocity (PV) rating.
+Next, I evaluated journal bearings to support the rotating shafts while maintaining proper alignment and minimizing friction. Using an assumed radial bearing load of 5 lbf, a shaft diameter of 0.250 inches, and a bearing length of 0.500 inches, I calculated the projected bearing area, bearing pressure, surface velocity, and pressure-velocity (PV) rating.
 
 #### Journal Bearing Analysis Results
 
@@ -97,9 +84,7 @@ Using an assumed radial bearing load of 5 lbf, a shaft diameter of 0.250 inches,
 | Surface velocity | 98.17 ft/min |
 | PV rating | 3,927 psi·ft/min |
 
-Based on these results, I selected oil-impregnated sintered bronze as the preliminary bearing material because of its self-lubricating properties and suitability for rotating-shaft applications.
-
-The calculated pressure and PV rating would need to be compared with the allowable operating limits in Machinery's Handbook to verify the material selection.
+Based on these results, I selected oil-impregnated sintered bronze as the preliminary bearing material because of its self-lubricating properties and suitability for rotating-shaft applications. The calculated pressure and PV rating would need to be compared with the allowable operating limits in Machinery's Handbook to verify the material selection.
 
 #### Handwritten Calculations
 
@@ -113,9 +98,7 @@ The calculated pressure and PV rating would need to be compared with the allowab
 
 ### Part 4: Frame Design and Structural Analysis
 
-For the support frame, I selected 6061-T6 aluminum because of its strength-to-weight ratio, corrosion resistance, and machinability.
-
-I designed a rounded rectangular frame with two bearing openings separated by 5 inches to maintain the required center-to-center distance between the shafts.
+For the support frame, I selected 6061-T6 aluminum because of its strength-to-weight ratio, corrosion resistance, and machinability. I designed a rounded rectangular frame with two bearing openings separated by 5 inches to maintain the required center-to-center distance between the shafts.
 
 #### Frame Dimensions
 
@@ -164,27 +147,15 @@ Based on my engineering analysis, I selected two 3-inch diameter aluminum pulley
 | Center-to-center distance | 5 in |
 | Operating speed | 1500 rpm |
 
-I selected standard belt and shaft diameters that exceeded their calculated minimum values to provide additional strength while maintaining practical manufacturing dimensions.
-
-The journal bearing material was selected based on its friction and lubrication properties, while the frame was designed to maintain shaft alignment and the specified center distance.
-
-These components satisfy the preliminary strength calculations, although further analysis would be required to verify belt pretension, bearing specifications, and combined shaft loading.
+I selected standard belt and shaft diameters that exceeded their calculated minimum values to provide additional strength while maintaining practical manufacturing dimensions. The journal bearing material was selected based on its friction and lubrication properties, while the frame was designed to maintain shaft alignment and the specified center distance. These components satisfy the preliminary strength calculations, although further analysis would be required to verify belt pretension, bearing specifications, and combined shaft loading.
 
 ## Communicate
 
-After completing the calculations, I developed a preliminary 3D CAD model of the pulley system using SolidWorks-compatible STEP geometry.
-
-I started by modeling the aluminum support frame with a rounded rectangular profile and two bearing openings separated by 5 inches.
-
-Next, I modeled the two 3-inch diameter pulleys with circumferential grooves for the polyurethane round belt. Each pulley was designed with a central shaft opening.
-
-I then added the steel shafts and sleeve bearings before positioning the components to represent the complete pulley assembly.
+After completing the calculations, I developed a preliminary 3D CAD model of the pulley system using SolidWorks-compatible STEP geometry. I started by modeling the aluminum support frame with a rounded rectangular profile and two bearing openings separated by 5 inches. Next, I modeled the two 3-inch diameter pulleys with circumferential grooves for the polyurethane round belt. Each pulley was designed with a central shaft opening. I then added the steel shafts and sleeve bearings before positioning the components to represent the complete pulley assembly.
 
 ### Step 1: Support Frame
 
-The frame was designed with an overall length of 7 inches, a width of 1.5 inches, and a thickness of 0.25 inches.
-
-The bearing openings were positioned along the longitudinal centerline to maintain the required 5-inch spacing.
+The frame was designed with an overall length of 7 inches, a width of 1.5 inches, and a thickness of 0.25 inches. The bearing openings were positioned along the longitudinal centerline to maintain the required 5-inch spacing.
 
 ![Frame Sketch](images/frame-sketch.png)
 
@@ -196,9 +167,7 @@ The bearing openings were positioned along the longitudinal centerline to mainta
 
 ### Step 2: Pulley Geometry
 
-Each pulley was modeled with a 3-inch outside diameter and a circumferential groove to accommodate the round belt.
-
-A central bore was included to accommodate the 1/4-inch diameter shaft.
+Each pulley was modeled with a 3-inch outside diameter and a circumferential groove to accommodate the round belt. A central bore was included to accommodate the 1/4-inch diameter shaft.
 
 ![SolidWorks Pulley](images/solidworks-pulley.png)
 
@@ -206,28 +175,14 @@ A central bore was included to accommodate the 1/4-inch diameter shaft.
 
 ### Step 3: Final Assembly
 
-After modeling the individual components, I positioned the pulleys, shafts, bearings, and belt relative to the aluminum frame.
-
-The assembly maintains a 5-inch center distance between the two pulley axes.
+After modeling the individual components, I positioned the pulleys, shafts, bearings, and belt relative to the aluminum frame. The assembly maintains a 5-inch center distance between the two pulley axes.
 
 ![Final Pulley Assembly](images/final-pulley-assembly.png)
 
 *Figure 11: Complete pulley system showing the pulleys, belt, shafts, bearings, and support frame.*
 
-The CAD model represents the preliminary component geometry. Further development would be necessary to finalize bearing fits, shaft retention, belt installation tension, and mounting details.
+The CAD model represents the preliminary component geometry. Further development would be necessary to finalize bearing fits, shaft retention, belt installation tension, and mounting details. One challenge I encountered was determining the appropriate belt circumference. Initially, I focused on matching the calculated geometric belt length, but realized that installation strain was necessary to develop sufficient initial tension. I also had to distinguish between the theoretical minimum shaft diameter and a practical standard diameter. Although the minimum calculated diameter was approximately 0.165 inches, I selected a 0.250-inch shaft to increase the torsional safety margin. Another design consideration was maintaining accurate shaft alignment and center spacing within the frame while allowing enough clearance for the rotating components.
 
-One challenge I encountered was determining the appropriate belt circumference. Initially, I focused on matching the calculated geometric belt length, but realized that installation strain was necessary to develop sufficient initial tension.
-
-I also had to distinguish between the theoretical minimum shaft diameter and a practical standard diameter. Although the minimum calculated diameter was approximately 0.165 inches, I selected a 0.250-inch shaft to increase the torsional safety margin.
-
-Another design consideration was maintaining accurate shaft alignment and center spacing within the frame while allowing enough clearance for the rotating components.
-
-Throughout this assignment, I developed a better understanding of how belt friction and the difference between tight-side and loose-side tensions influence torque transmission.
-
-I learned how to apply torsional shear stress equations to determine the minimum shaft diameter and how bearing pressure, surface velocity, and PV ratings affect journal bearing selection.
-
-During the belt selection process, I learned that tensile strength and geometric circumference alone are insufficient to determine belt performance. Installation strain, static pretension, and friction must also be considered to reduce the risk of slipping.
-
-The frame analysis also demonstrated the importance of structural stiffness, load distribution, and shaft alignment.
+Throughout this assignment, I developed a better understanding of how belt friction and the difference between tight-side and loose-side tensions influence torque transmission. I learned how to apply torsional shear stress equations to determine the minimum shaft diameter and how bearing pressure, surface velocity, and PV ratings affect journal bearing selection. During the belt selection process, I learned that tensile strength and geometric circumference alone are insufficient to determine belt performance. Installation strain, static pretension, and friction must also be considered to reduce the risk of slipping. The frame analysis also demonstrated the importance of structural stiffness, load distribution, and shaft alignment.
 
 Overall, this assignment helped me understand how engineering calculations and SolidWorks modeling can be used together to make mechanical design decisions. I spent approximately 6 hours completing the initial calculations, component selection, and documentation. Additional time was spent developing the CAD model.
