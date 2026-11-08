@@ -224,8 +224,6 @@ I also had to distinguish between the theoretical minimum shaft diameter and a p
 
 Another design consideration was maintaining accurate shaft alignment and center spacing within the frame while allowing enough clearance for the rotating components.
 
-### Engineering Lessons Learned
-
 Throughout this assignment, I developed a better understanding of how belt friction and the difference between tight-side and loose-side tensions influence torque transmission.
 
 I learned how to apply torsional shear stress equations to determine the minimum shaft diameter and how bearing pressure, surface velocity, and PV ratings affect journal bearing selection.
