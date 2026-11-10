@@ -12,6 +12,13 @@ For my design, I selected two 3-inch diameter aluminum pulleys with a center-to-
 <img width="400" height="400" alt="Screenshot 2026-11-10 064541" src="https://github.com/user-attachments/assets/cc474171-782c-4bcd-b041-dfeef7228201" />
 <img width="400" height="400" alt="Screenshot 2026-11-10 064549" src="https://github.com/user-attachments/assets/32cf944c-1481-44fe-9268-1e4cf44451c3" />
 <img width="400" height="400" alt="Screenshot 2026-11-10 064557" src="https://github.com/user-attachments/assets/ee41efdf-f2d0-43e4-9b58-9d9f892bec73" />
+<img width="400" height="400" alt="Screenshot 2026-11-10 075355" src="https://github.com/user-attachments/assets/4f365376-400b-4d9c-af32-bfb6f89d2d03" />
+<img width="400" height="400" alt="Screenshot 2026-11-10 075536" src="https://github.com/user-attachments/assets/c124e41e-8606-47ca-95ab-f3cc77ce7d14" />
+<img width="400" height="400" alt="Screenshot 2026-11-10 075519" src="https://github.com/user-attachments/assets/4f57c046-4f9e-4aec-ae2b-5f84ff206921" />
+<img width="400" height="400" alt="Screenshot 2026-11-10 075411" src="https://github.com/user-attachments/assets/a8944e35-b25a-40da-94c9-6a02f391d0a0" />
+<img width="400" height="400" alt="Screenshot 2026-11-10 075553" src="https://github.com/user-attachments/assets/8e385d8c-7685-4644-b12a-4077c0fdc301" />
+<img width="400" height="400" alt="Screenshot 2026-11-10 075618" src="https://github.com/user-attachments/assets/51711529-fe0a-4cfd-8268-4893370a92ef" />
+
 
 I started by identifying the knowns and unknowns and creating a free-body diagram (FBD) of the pulley system. I used the belt friction equation to calculate the tight-side and loose-side tensions, assuming a coefficient of friction of 0.30 and a wrap angle of 180 degrees. I then applied the normal stress equation and the polyurethane rubber yield strength of 471 psi to determine the minimum belt cross-sectional area and diameter.
 
