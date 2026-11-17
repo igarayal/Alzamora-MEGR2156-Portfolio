@@ -83,7 +83,7 @@ The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **
 | | | **Verified subtotal** | | **$325.04** | |
 
 
-### Lessons Learned ([Isabella])
+### Lessons Learned
 
 We learned that the screw, nut, and flange each determine a different part of the design. The screw lead sets the rotational speed, the nut threads transfer the axial force, and the flange bolt circle sets the crosshead hole pattern. We also learned that stiffness can determine the plate thickness even when the bending stress is well below the allowable stress. In our design, the deflection check required **15.07 mm**, compared with **10.08 mm** for bending strength.
 
