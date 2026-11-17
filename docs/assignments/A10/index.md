@@ -70,6 +70,21 @@ The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **
 [Download the Crosshead Drawing](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
 [Download the Crosshead Part](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
 
+### Assembly (Eva Stewart)
+
+Downloaded and imported the appropriate CAD files for the leadscrew, nut and flange, frame, and crosshead. Assembled all components in SolidWorks, applying the necessary mates and constraints to ensure proper positioning and alignment. Two sections of the original 2-foot frame were cut to the required lengths to accommodate the assembly and avoid purchasing a differently sized frame. These modifications caused rebuild errors within the SolidWorks parts and assembly; however, all components remained correctly positioned and aligned within the overall design.
+
+<img width="500" height="500" alt="Screenshot 2026-11-16 214348" src="https://github.com/user-attachments/assets/e492fcd8-d380-45ba-82fb-6f3710ec9e29" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214650" src="https://github.com/user-attachments/assets/e2aed8ee-e339-44a0-908e-c5a57fe0a2a1" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 215259" src="https://github.com/user-attachments/assets/1d9321d7-850d-492a-9593-75a2dbb2c9e7" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214610" src="https://github.com/user-attachments/assets/ec7ba1a2-a351-4579-9d61-07b47cefe693" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214555" src="https://github.com/user-attachments/assets/cfea9517-f482-436d-95c0-b2b1903d1061" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214540" src="https://github.com/user-attachments/assets/7af79475-f4b3-436e-84e6-04ecf1ec08ba" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214511" src="https://github.com/user-attachments/assets/d2f9aba2-3934-4bac-8c63-9e34c9542d2a" />
+<img width="500" height="500" alt="Screenshot 2026-11-16 214420" src="https://github.com/user-attachments/assets/dbe69e5d-3f35-45e6-b0f9-8ac4cf1ed42e" />
+
+[Download the Tensile Tester Setup Assembly](https://github.com/user-attachments/files/34949408/A10-Tensile.Tester.Setup.zip)
+
 ### Tabulating Costs ([Eva Stewart])
 
 | Item Number | Quantity | Name             | Cost/Item | Cost    | Purchase Link |
