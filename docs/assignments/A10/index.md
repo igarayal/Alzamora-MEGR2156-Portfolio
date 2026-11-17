@@ -14,7 +14,12 @@ During our calculation review, we found that the original axial sizing applied t
 
 We paired each leadscrew with a **95072A108 bronze nut** and a **95082A641 steel flange**. The nut’s internal 3/8–12 Acme thread fits the screw. Its external 9/16–18 thread attaches it to the flange. For the 5/8 in nut, our equal-load thread-bending model gives approximately **2.57 ksi at the 1,000 N service load**. The flange’s **1-1/8 in bolt circle** sets the mounting hole pattern on the crosshead.
 
-### Crosshead Strength and Deflection ([Team member])
+### Crosshead Strength and Deflection ([Isabella])
+<img width="400" height="400" alt="Screenshot 2026-11-16 191838" src="https://github.com/user-attachments/assets/d45a9651-1874-47eb-9cfa-2b8ceacc322a" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 191846" src="https://github.com/user-attachments/assets/02f15f53-71eb-4a06-b0bb-b439d9deb649" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 191856" src="https://github.com/user-attachments/assets/2cca395a-1887-4d66-9edb-1fef61e9a321" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 191905" src="https://github.com/user-attachments/assets/65713ebe-1850-4745-8bac-c973e3abae1f" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 191912" src="https://github.com/user-attachments/assets/4d5ce70a-1206-46dc-86b3-6c27f5d3dc15" />
 
 We modeled the crosshead as a simply supported beam. The specimen pulls down with **2,000 N** at the center grip, and each nut and flange supports the plate with an upward reaction of **1,000 N**. We used a **152.40 mm span** between the screw centers and a conservative **75 mm effective width** to account for the screw and mounting holes.
 
@@ -22,8 +27,6 @@ We modeled the crosshead as a simply supported beam. The specimen pulls down wit
 | --- | ---: | ---: |
 | Bending strength | 10.08 mm | 15.24 MPa bending stress and 15.75 bending safety factor |
 | Deflection | 15.07 mm | 0.0428 mm center deflection |
-
-![Crosshead free-body diagram](images/crosshead-fbd.png)
 
 ## Decide
 ### Concept Selection ([Team member])
@@ -39,9 +42,13 @@ We selected a **304.80 × 101.60 × 20.00 mm 6061-T6 aluminum crosshead**. Defle
 
 The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **152.40 mm** apart. Each screw hole is surrounded by four **Ø6.60 mm mounting holes** on a **Ø28.575 mm bolt circle**. The **Ø13.00 mm center hole** is for the proposed grip adapter. Both steel flanges seat against the underside of the crosshead.
 
-![Dimensioned top, front, and right views of the crosshead](images/crosshead-multiview.png)
-
-![Isometric crosshead CAD view](images/crosshead-cad.png)
+<img width="400" height="400" alt="Screenshot 2026-11-16 193857" src="https://github.com/user-attachments/assets/cc694573-4861-430f-b760-c95507cd9e87" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 194343" src="https://github.com/user-attachments/assets/4532b707-6c3b-40e8-9c73-0168b4733a8f" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 194444" src="https://github.com/user-attachments/assets/1694a951-624c-4066-a27f-20b00b794870" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 194508" src="https://github.com/user-attachments/assets/3dc346df-3711-438c-a2f6-fd298da23ba2" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 194910" src="https://github.com/user-attachments/assets/391361d8-1b92-486b-ae49-01073ff74e33" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 194925" src="https://github.com/user-attachments/assets/b9d07751-449d-4459-a186-3435a4e35a80" />
+<img width="400" height="400" alt="Screenshot 2026-11-16 194951" src="https://github.com/user-attachments/assets/498185ef-9e23-4a22-b97e-2f0cda90851d" />
 
 [Download the crosshead CAD files](A10-Crosshead-CAD.zip)
 
