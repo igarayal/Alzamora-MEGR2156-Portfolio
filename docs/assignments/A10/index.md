@@ -50,7 +50,8 @@ The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **
 <img width="400" height="400" alt="Screenshot 2026-11-16 194925" src="https://github.com/user-attachments/assets/b9d07751-449d-4459-a186-3435a4e35a80" />
 <img width="400" height="400" alt="Screenshot 2026-11-16 194951" src="https://github.com/user-attachments/assets/498185ef-9e23-4a22-b97e-2f0cda90851d" />
 
-[Download the Crosshead](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
+[Download the Crosshead Drawing](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
+[Download the Crosshead Part](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
 
 ### Tabulating Costs ([Team member])
 
