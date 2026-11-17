@@ -14,6 +14,12 @@ During our calculation review, we found that the original axial sizing applied t
 
 We paired each leadscrew with a **95072A108 bronze nut** and a **95082A641 steel flange**. The nut’s internal 3/8–12 Acme thread fits the screw. Its external 9/16–18 thread attaches it to the flange. For the 5/8 in nut, our equal-load thread-bending model gives approximately **2.57 ksi at the 1,000 N service load**. The flange’s **1-1/8 in bolt circle** sets the mounting hole pattern on the crosshead.
 
+<img width="400" height="400" alt="Screenshot 2026-11-15 180006" src="https://github.com/user-attachments/assets/9b3ace73-b62d-4a16-af88-f82bf5eedcc5" />
+<img width="400" height="400" alt="Screenshot 2026-11-15 180018" src="https://github.com/user-attachments/assets/8fdbe275-d19c-4465-a114-d100188e4d37" />
+<img width="400" height="400" alt="Screenshot 2026-11-15 180025" src="https://github.com/user-attachments/assets/9daae0b3-5233-460a-bbec-747af7c5fcc2" />
+<img width="400" height="400" alt="Screenshot 2026-11-15 180034" src="https://github.com/user-attachments/assets/e37a6565-8f2f-4feb-b35a-4ed20a74d222" />
+<img width="400" height="400" alt="Screenshot 2026-11-15 180042" src="https://github.com/user-attachments/assets/58756c0a-4183-45d9-9ed4-3347f8e98928" />
+
 ### Crosshead Strength and Deflection ([Isabella])
 <img width="400" height="400" alt="Screenshot 2026-11-16 191838" src="https://github.com/user-attachments/assets/d45a9651-1874-47eb-9cfa-2b8ceacc322a" />
 <img width="400" height="400" alt="Screenshot 2026-11-16 191846" src="https://github.com/user-attachments/assets/02f15f53-71eb-4a06-b0bb-b439d9deb649" />
