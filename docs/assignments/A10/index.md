@@ -31,7 +31,21 @@ We modeled the crosshead as a simply supported beam. The specimen pulls down wit
 ## Decide
 ### Concept Selection ([Team])
 
-Our Pugh matrix compared **[list the concepts your team evaluated]** using criteria that included **[insert your team's criteria]**. We selected the **dual-leadscrew concept** because **[insert the deciding criterion or result from your matrix]**.
+We used a Pugh matrix to compare three ways to drive the two leadscrews together. The roller chain was the baseline. A `+` means better than the baseline, `0` means comparable, and `−` means worse.
+
+| Selection criterion | Roller chain (baseline) | Timing belt | Cross-shaft with bevel gears |
+| --- | :---: | :---: | :---: |
+| Synchronizes both leadscrews at a 1:1 ratio | 0 | 0 | 0 |
+| Can meet the 1–50 mm/min target with suitable crank gearing | 0 | 0 | 0 |
+| Smooth motion at low speed | 0 | + | + |
+| Ease of assembly and alignment | 0 | 0 | − |
+| Low routine maintenance | 0 | + | − |
+| **Net score** | **0** | **+2** | **−1** |
+
+The timing belt scored highest because it provides smooth low-speed motion and requires no chain lubrication. A toothed belt and two equal-size pulleys would turn the screws at the same rate, allowing both sides of the crosshead to advance together. The crosshead places the screw centers 152.40 mm apart, with the specimen grip centered between them.
+
+The $325.04 purchased-parts subtotal covers the leadscrews, nuts, flanges, and frame rails. Those parts are shared by all three concepts. The timing belt and pulleys still need to be sized and priced.
+Our Pugh matrix compared a roller chain, a timing belt, and a cross-shaft with bevel gears as ways to synchronize the two leadscrews. We evaluated each option based on synchronization, ability to meet the crosshead speed range, smoothness at low speed, ease of assembly and alignment, and maintenance. We selected the timing-belt drive because it earned the highest score (+2), with advantages in low-speed smoothness and routine maintenance.
 
 The design follows this decision by placing one screw on each side of the centered specimen. This gives the crosshead two symmetric support points and lets both sides advance together when the screws are synchronized. The bronze nuts and bolt-on steel flanges connect the crosshead to the screws.
 
