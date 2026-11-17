@@ -38,7 +38,7 @@ The design follows this decision by placing one screw on each side of the center
 We selected a **304.80 × 101.60 × 20.00 mm 6061-T6 aluminum crosshead**. Deflection required more thickness than bending strength, so we used the stiffness calculation to guide the plate thickness. The 20 mm plate gives a predicted beam deflection of 0.0428 mm, below the 0.100 mm limit.
 
 ## Communicate
-### Crosshead Drawing and CAD ([Team member])
+### Crosshead Drawing and CAD ([Isabella])
 
 The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **152.40 mm** apart. Each screw hole is surrounded by four **Ø6.60 mm mounting holes** on a **Ø28.575 mm bolt circle**. The **Ø13.00 mm center hole** is for the proposed grip adapter. Both steel flanges seat against the underside of the crosshead.
 
@@ -50,7 +50,7 @@ The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **
 <img width="400" height="400" alt="Screenshot 2026-11-16 194925" src="https://github.com/user-attachments/assets/b9d07751-449d-4459-a186-3435a4e35a80" />
 <img width="400" height="400" alt="Screenshot 2026-11-16 194951" src="https://github.com/user-attachments/assets/498185ef-9e23-4a22-b97e-2f0cda90851d" />
 
-[Download the crosshead CAD files](A10-Crosshead-CAD.zip)
+[Download the crosshead CAD files]([A10-Crosshead-CAD.zip](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW))
 
 ### Tabulating Costs ([Team member])
 
