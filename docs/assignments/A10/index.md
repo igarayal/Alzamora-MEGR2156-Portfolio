@@ -4,13 +4,13 @@
 Our goal was to design a benchtop tensile tester that uses two leadscrews to apply up to 2 kN to a specimen. The crosshead must move at 1–50 mm/min, deflect no more than 0.100 mm under load, and operate mechanically. We used a design factor of 4 when sizing the load-bearing components.
 
 ## Analyze
-### Leadscrew Diameter, Speed, and Torque ([Team member])
+### Leadscrew Diameter, Speed, and Torque ([George])
 
 We assumed the specimen was centered, so each leadscrew carries 1,000 N of the 2,000 N load. We selected two 18 in long, 3/8–12 right-hand precision Acme leadscrews made from 1018 steel. Using the catalog lead of 0.083 in/rev, the screws need to turn at approximately **0.474–23.72 rpm** to meet the crosshead speed range. Our preliminary raising torque was **8.76 lbf·in per screw**, before bearing and drivetrain losses.
 
 During our calculation review, we found that the original axial sizing applied the factor of safety twice. We can apply the factor to the service load or divide the material strength by it. The screw’s actual root diameter and material strength still need to be confirmed for the final strength check.
 
-### Nut and Flange ([Team member])
+### Nut and Flange ([George])
 
 We paired each leadscrew with a **95072A108 bronze nut** and a **95082A641 steel flange**. The nut’s internal 3/8–12 Acme thread fits the screw. Its external 9/16–18 thread attaches it to the flange. For the 5/8 in nut, our equal-load thread-bending model gives approximately **2.57 ksi at the 1,000 N service load**. The flange’s **1-1/8 in bolt circle** sets the mounting hole pattern on the crosshead.
 
@@ -29,7 +29,7 @@ We modeled the crosshead as a simply supported beam. The specimen pulls down wit
 | Deflection | 15.07 mm | 0.0428 mm center deflection |
 
 ## Decide
-### Concept Selection ([Team member])
+### Concept Selection ([Team])
 
 Our Pugh matrix compared **[list the concepts your team evaluated]** using criteria that included **[insert your team's criteria]**. We selected the **dual-leadscrew concept** because **[insert the deciding criterion or result from your matrix]**.
 
@@ -53,18 +53,19 @@ The crosshead has two **Ø10.50 mm through-holes** for the leadscrews, spaced **
 [Download the Crosshead Drawing](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
 [Download the Crosshead Part](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/A10/A10-Crossheadfinal.SLDDRW)
 
-### Tabulating Costs ([Team member])
+### Tabulating Costs ([Eva Stewart])
 
-| Item | Quantity | Purchased component | Cost per item | Extended cost | Purchase link |
-| --- | ---: | --- | ---: | ---: | --- |
-| 1 | 2 | 18 in precision Acme leadscrew, 99030A992 | Pending | Pending | [McMaster-Carr](https://www.mcmaster.com/99030A992/) |
-| 2 | 2 | 673 bronze Acme nut, 95072A108 | Pending | Pending | [McMaster-Carr](https://www.mcmaster.com/95072A108/) |
-| 3 | 2 | 1215 steel flange, 95082A641 | Pending | Pending | [McMaster-Carr](https://www.mcmaster.com/95082A641/) |
-| 4 | 4 | 40 × 40 mm aluminum frame stock, 906T77 | $47.92 | $191.68 | [Grainger](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Profiles-906T77) |
-| | | **Verified subtotal** | | **$191.68** | |
+| Item Number | Quantity | Name             | Cost/Item | Cost    | Purchase Link |
+|:-----------:|:--------:|------------------|:---------:|:-------:|---------------|
+| 1           | 2        | ⅜”-12 Leadscrew  | $17.04    | $34.08  | [Leadscrew](https://www.mcmaster.com/99030A992/) |
+| 2           | 2        | ⅜”-12 Nut        | $32.18    | $64.36  | [Nut](https://www.mcmaster.com/95072A108/) |
+| 3           | 2        | 9/16”-18 Flange  | $37.06    | $74.12  | [Flange](https://www.mcmaster.com/95082A641/) |
+| 4           | 4        | 2' Frame         | $38.12    | $152.48 | [Frame](https://www.mcmaster.com/4658N31-4658N33/) |
+| | | **Verified subtotal** | | **$325.04** | |
 
-### Lessons Learned ([Team member])
+
+### Lessons Learned ([Isabella])
 
 We learned that the screw, nut, and flange each determine a different part of the design. The screw lead sets the rotational speed, the nut threads transfer the axial force, and the flange bolt circle sets the crosshead hole pattern. We also learned that stiffness can determine the plate thickness even when the bending stress is well below the allowable stress. In our design, the deflection check required **15.07 mm**, compared with **10.08 mm** for bending strength.
 
-**Actual time spent** — 
+**Time spent** - 5 hours
