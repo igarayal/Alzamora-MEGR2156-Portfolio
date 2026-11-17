@@ -17,8 +17,6 @@ We paired each leadscrew with a **95072A108 bronze nut** and a **95082A641 steel
 <img width="400" height="400" alt="Screenshot 2026-11-15 180006" src="https://github.com/user-attachments/assets/9b3ace73-b62d-4a16-af88-f82bf5eedcc5" />
 <img width="400" height="400" alt="Screenshot 2026-11-15 180018" src="https://github.com/user-attachments/assets/8fdbe275-d19c-4465-a114-d100188e4d37" />
 <img width="400" height="400" alt="Screenshot 2026-11-15 180025" src="https://github.com/user-attachments/assets/9daae0b3-5233-460a-bbec-747af7c5fcc2" />
-<img width="400" height="400" alt="Screenshot 2026-11-15 180034" src="https://github.com/user-attachments/assets/e37a6565-8f2f-4feb-b35a-4ed20a74d222" />
-<img width="400" height="400" alt="Screenshot 2026-11-15 180042" src="https://github.com/user-attachments/assets/58756c0a-4183-45d9-9ed4-3347f8e98928" />
 
 ### Crosshead Strength and Deflection ([Isabella])
 <img width="400" height="400" alt="Screenshot 2026-11-16 191838" src="https://github.com/user-attachments/assets/d45a9651-1874-47eb-9cfa-2b8ceacc322a" />
