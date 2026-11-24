@@ -90,7 +90,7 @@ Together, the two studies show how the load travels through the frame and where 
 
 ### Frame Assembly CAD Download
 
-[Tensile Tester Final.zip](https://github.com/user-attachments/files/35310027/Tensile.Tester.Final.zip)
+[Tensile Tester Final.zip]([https://github.com/user-attachments/files/35310027/Tensile.Tester.Final.zip](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/a11/Tensile.Tester.Final.zip))
 
 
 ## Decide
