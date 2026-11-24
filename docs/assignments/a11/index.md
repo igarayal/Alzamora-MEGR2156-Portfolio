@@ -188,11 +188,11 @@ The bearing mount geometry was developed to provide radial support while allowin
 
 **CAD Screenshots:**
 
-<!-- Insert screenshot of floating bearing mounting block -->
+<img width="400" height="400" alt="Screenshot 2026-11-24 020006" src="https://github.com/user-attachments/assets/61af5fee-9ef9-49f5-883c-954b0d53d530" />
 
-<!-- Insert screenshot of bearing assembly -->
+<img width="400" height="400" alt="Screenshot 2026-11-24 020148" src="https://github.com/user-attachments/assets/6b823a71-585e-4984-85e9-ee994b942fac" />
 
-<!-- Insert screenshot of multiview drawing -->
+<img width="400" height="400" alt="Screenshot 2026-11-24 015728" src="https://github.com/user-attachments/assets/1d3f6900-fa74-4b76-b3bb-d606cd2870ca" />
 
 <!-- Insert screenshot of floating bearing mounts in the full tensile tester assembly -->
 
