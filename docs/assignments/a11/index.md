@@ -194,7 +194,6 @@ The bearing mount geometry was developed to provide radial support while allowin
 
 <img width="400" height="400" alt="Screenshot 2026-11-24 015728" src="https://github.com/user-attachments/assets/1d3f6900-fa74-4b76-b3bb-d606cd2870ca" />
 
-<!-- Insert screenshot of floating bearing mounts in the full tensile tester assembly -->
 
 The preliminary design establishes the bearing dimensions and running fit. The final assembly will require verification of the bearing sleeve retention, shaft journal machining, fastener compatibility, and alignment with the frame.
 
