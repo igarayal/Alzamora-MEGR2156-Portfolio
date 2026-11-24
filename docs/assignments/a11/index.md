@@ -182,9 +182,10 @@ The bearing mount geometry was developed to provide radial support while allowin
 
 **CAD and Drawing Files:**
 
-- [Floating Bearing Mount](A11_Floating_Mount_Block.step)
-- [Floating Bearing Assembly](A11_Floating_Bearing_Assembly.step)
-- [Two-Bearing Assembly](A11_Two_Bearing_Mounts_152.4mm.step)
+- [Floating Bearing Mount]([A11_Floating_Mount_Block.step](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/a11/A11_Floating_Mount_Block.step.SLDPRT))
+- [Floating Bearing Assembly]([A11_Floating_Bearing_Assembly.step](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/a11/A11_Floating_Bearing_Assembly.step.SLDASM))
+- [Two-Bearing Assembly]([A11_Two_Bearing_Mounts_152.4mm.step](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/a11/A11_Two_Bearing_Mounts_152.4mm.step))
+- [Float Bearing Drawing](https://github.com/igarayal/Alzamora-MEGR2156-Portfolio/blob/main/docs/assignments/a11/A11_Floating_Mount_Block.step.SLDDRW)
 
 **CAD Screenshots:**
 
