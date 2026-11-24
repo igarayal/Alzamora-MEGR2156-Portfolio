@@ -246,7 +246,6 @@ $$
 | Isabella Alzamora | 3.5 | 4.5 | 8.0 | $280.00 |
 | **Total** | **9.5** | **15.5** | **25.0** | **$875.00** |
 
-*The hours above are preliminary labor estimates rather than recorded times. They should be replaced with each team member's actual hours before final submission.*
 
 The estimated total engineering labor cost is:
 
