@@ -94,6 +94,211 @@ Together, the two studies show how the load travels through the frame and where 
 
 
 ## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+### Design Floating Bearing Mount: Isabella Alzamora
+
+For this portion of the assignment, I focused on designing a floating bearing mount to support the lower ends of our two leadscrews. The purpose of the mount is to maintain alignment while allowing the leadscrews to rotate freely. Unlike the upper supports, the floating bearings should not restrict axial movement, which helps prevent binding and unnecessary stress within the system.
+
+I started by reviewing the leadscrew dimensions from A10 and the frame configuration developed for A11. Since our design uses two 3/8"-12 Acme leadscrews spaced 152.40 mm apart, I developed a preliminary design using two identical bearing mounts positioned at the bottom of the frame. I selected 6061-T6 aluminum for the mounting blocks and bronze for the bearing sleeves.
+
+The mounting block dimensions were selected as **60 mm × 40 mm × 19 mm**. Each block includes a center opening for the bearing sleeve and two mounting holes to secure it to the lower frame. The mounting holes are spaced 40 mm apart to provide a symmetrical connection.
+
+#### Bearing Dimensions and Fit Analysis
+
+I began by identifying the dimensions needed to support the leadscrew while maintaining rotational clearance.
+
+| Feature | Selected Dimension | Design Purpose |
+|---|---|---|
+| Mounting Block | 60 × 40 × 19 mm | Supports the bearing and mounting hardware |
+| Bearing Sleeve Outer Diameter | 12.70 mm nominal | Fits inside the proposed mounting block |
+| Bearing Sleeve Length | 12.70 mm | Provides radial support |
+| Shaft Journal Diameter | 0.250 in nominal | Provides a smooth rotating surface |
+| Mounting Holes | 2 × Ø7.14 mm | Clearance for proposed 1/4"-20 bolts |
+| Mounting Hole Spacing | 40.00 mm | Symmetrical mounting arrangement |
+| Leadscrew Center Spacing | 152.40 mm | Matches the crosshead assembly |
+
+The assignment required an **RC3 precision running fit**, so I used dimensional limits to calculate the clearance between the shaft and bearing.
+
+**Knowns:**
+
+- Nominal shaft journal diameter = 0.250 in
+- Bearing bore range = 0.2500–0.2506 in
+- Shaft journal range = 0.2491–0.2495 in
+- Fit classification = RC3
+
+**Unknowns:**
+
+- Minimum clearance
+- Maximum clearance
+
+#### Symbolic Solution
+
+The minimum clearance occurs when the bearing bore is at its smallest diameter and the shaft is at its largest diameter.
+
+$$
+C_{\min}=D_{\min}-d_{\max}
+$$
+
+The maximum clearance occurs when the bearing bore is at its largest diameter and the shaft is at its smallest diameter.
+
+$$
+C_{\max}=D_{\max}-d_{\min}
+$$
+
+#### Numerical Solution
+
+**Minimum Clearance:**
+
+$$
+C_{\min}=0.2500-0.2495
+$$
+
+$$
+\boxed{C_{\min}=0.0005\text{ in}}
+$$
+
+**Maximum Clearance:**
+
+$$
+C_{\max}=0.2506-0.2491
+$$
+
+$$
+\boxed{C_{\max}=0.0015\text{ in}}
+$$
+
+The resulting diametral clearance range was **0.0005–0.0015 in**. This clearance allows the shaft to rotate while limiting excessive radial movement.
+
+The lower end of each leadscrew would require a smooth machined journal because the Acme threads cannot directly serve as an RC3 bearing surface. The bearing sleeve would also need to be secured in the mounting block without preventing the intended axial movement of the shaft.
+
+For the mounting hardware, I selected a preliminary clearance hole diameter of **7.14 mm (9/32 in)** for 1/4"-20 bolts. The mounting hole size and fastener compatibility must be checked against the final frame profile.
+
+#### CAD Model and Drawing
+
+The preliminary CAD design consists of an aluminum mounting block and a bronze bearing sleeve. The mounting block includes a central bearing opening and two clearance holes for attachment to the lower frame.
+
+The design follows the 152.40 mm leadscrew spacing established in A10. I also considered the need for access to the mounting bolts during assembly and maintenance.
+
+The bearing mount geometry was developed to provide radial support while allowing rotational and axial movement of the leadscrew at the floating end.
+
+**CAD and Drawing Files:**
+
+- [Floating Bearing Mount](A11_Floating_Mount_Block.step)
+- [Floating Bearing Assembly](A11_Floating_Bearing_Assembly.step)
+- [Two-Bearing Assembly](A11_Two_Bearing_Mounts_152.4mm.step)
+
+**CAD Screenshots:**
+
+<!-- Insert screenshot of floating bearing mounting block -->
+
+<!-- Insert screenshot of bearing assembly -->
+
+<!-- Insert screenshot of multiview drawing -->
+
+<!-- Insert screenshot of floating bearing mounts in the full tensile tester assembly -->
+
+The preliminary design establishes the bearing dimensions and running fit. The final assembly will require verification of the bearing sleeve retention, shaft journal machining, fastener compatibility, and alignment with the frame.
+
+---
+
+### Bill of Materials and Labor Costs: Isabella Alzamora
+
+For this section, I compiled the material costs from A10 and A11 to estimate the total cost of the tensile tester. I used the selected components and prices from McMaster-Carr, including the leadscrews, nuts, flanges, frame, motors, and couplers.
+
+The purchased components from A10 totaled **$325.04**. I carried these values into the updated bill of materials and included the additional components selected during A11.
+
+#### Bill of Materials
+
+| Item | Quantity | Name | Cost/Item | Total Cost | Purchase Link |
+|:---:|:---:|---|---:|---:|---|
+| 1 | 2 | 3/8"-12 Acme Leadscrew (99030A992) | $17.04 | $34.08 | [Leadscrew](https://www.mcmaster.com/99030A992/) |
+| 2 | 2 | 3/8"-12 Bronze Nut (95072A108) | $32.18 | $64.36 | [Nut](https://www.mcmaster.com/95072A108/) |
+| 3 | 2 | 9/16"-18 Steel Flange (95082A641) | $37.06 | $74.12 | [Flange](https://www.mcmaster.com/95082A641/) |
+| 4 | 4 | 2 ft T-Slot Frame | $38.12 | $152.48 | [Frame](https://www.mcmaster.com/4658N31-4658N33/) |
+| 5 | 2* | NEMA 23 Stepper Motor (6627T271) | $160.45 | $320.90 | [Motor](https://www.mcmaster.com/6627T271/) |
+| 6 | 2* | Flexible Shaft Coupling (6854N105) | $191.33 | $382.66 | [Coupler](https://www.mcmaster.com/6854N105/) |
+| 7 | 2 | Bronze Bearing Sleeves | Pending | Pending | [Bearings](https://www.mcmaster.com/products/sleeve-bearings/) |
+| 8 | 2 | Aluminum Floating Bearing Mount Stock | Pending | Pending | [Aluminum](https://www.mcmaster.com/metals/aluminum/) |
+| 9 | TBD | 1018 Steel Motor Bracket Stock | Pending | Pending | [Steel](https://www.mcmaster.com/metals/steel/) |
+| 10 | TBD | Frame Connectors and Fasteners | Pending | Pending | [Connectors](https://www.mcmaster.com/t-slotted-framing/) |
+| 11 | TBD | Specimen Clamping Components | Pending | Pending | [Clamps](https://www.mcmaster.com/clamps/) |
+| | | **A10 Purchased Components** | | **$325.04** | |
+| | | **A11 Priced Components** | | **$703.56** | |
+| | | **Current Material Subtotal** | | **$1,028.60** | |
+
+*The current cost estimate assumes two motors and two couplers, with one motor driving each leadscrew. These quantities must be confirmed against the final assembly. The selected coupler also requires a compatible bore for the motor's 1/4 in shaft.*
+
+The priced components currently total **$1,028.60**. The remaining components will need to be priced before calculating the final material cost.
+
+#### Engineering Labor Costs
+
+The assignment specifies an entry-level mechanical engineering labor rate of **$35 per hour**. For preliminary cost estimation, I assigned reasonable planning hours to each team member based on the scope of the design work.
+
+**Labor Cost Equation:**
+
+$$
+C_{\text{labor}}=t_{\text{total}}\times \$35/\text{hr}
+$$
+
+| Team Member | A10 Hours | A11 Hours | Total Hours | Labor Cost |
+|---|---:|---:|---:|---:|
+| George Mclean Jr | 3.0 | 5.0 | 8.0 | $280.00 |
+| Eva Stewart | 3.0 | 6.0 | 9.0 | $315.00 |
+| Isabella Alzamora | 3.5 | 4.5 | 8.0 | $280.00 |
+| **Total** | **9.5** | **15.5** | **25.0** | **$875.00** |
+
+*The hours above are preliminary labor estimates rather than recorded times. They should be replaced with each team member's actual hours before final submission.*
+
+The estimated total engineering labor cost is:
+
+$$
+C_{\text{labor}}=25.0\text{ hr}\times \$35/\text{hr}
+$$
+
+$$
+\boxed{C_{\text{labor}}=\$875.00}
+$$
+
+#### Estimated Total Project Cost
+
+The current estimated project cost is calculated by adding the priced materials and estimated engineering labor.
+
+$$
+C_{\text{project}}=C_{\text{materials}}+C_{\text{labor}}
+$$
+
+| Category | Cost |
+|---|---:|
+| A10 Materials | $325.04 |
+| A11 Priced Materials | $703.56 |
+| **Material Subtotal** | **$1,028.60** |
+| Estimated Engineering Labor | $875.00 |
+| **Current Estimated Project Subtotal** | **$1,903.60** |
+
+$$
+C_{\text{project}}=\$1,028.60+\$875.00
+$$
+
+$$
+\boxed{C_{\text{project}}=\$1,903.60}
+$$
+
+The current project subtotal is **$1,903.60**, including the purchased components priced so far and estimated engineering labor. The final total will increase once the remaining components and fabrication costs are included.
+
 
 ## Communicate
+### Lessons Learned: Isabella Alzamora
+
+Through this portion of the assignment, I learned how bearing fits and dimensional tolerances affect the performance of rotating mechanical components. The RC3 fit analysis demonstrated that selecting a nominal shaft diameter is not sufficient to ensure proper operation. The difference between the maximum and minimum dimensions determines the available clearance, which directly affects how freely the shaft can rotate.
+
+I also developed a better understanding of the difference between fixed and floating bearing supports. The upper support must react to axial loading, while the lower bearing provides radial alignment and allows axial movement. This distinction is important because constraining both ends could introduce additional stresses or binding within the leadscrew system.
+
+Another important consideration was how individual component dimensions affect the overall assembly. The bearing mount needed to follow the leadscrew spacing established in A10 while accounting for the frame dimensions and mounting hardware. This reinforced the importance of checking component compatibility before finalizing a mechanical design.
+
+Preparing the bill of materials also helped me understand the relationship between engineering design and project cost. In addition to purchased components, engineering labor contributes to the total project expense. Separating material and labor costs provided a clearer understanding of the resources required to complete the tensile tester.
+
+One challenge with the bearing mount was accounting for the difference between the threaded leadscrew diameter and the smaller shaft journal required for the running fit. This showed that bearing selection involves more than matching nominal dimensions and may require additional machining or changes to the original design.
+
+Overall, this assignment strengthened my understanding of dimensional tolerances, bearing selection, CAD integration, and engineering cost estimation.
+
+**Estimated A11 Time:** 4.5 hours  
+**Estimated Total A10 and A11 Time:** 8.0 hours
